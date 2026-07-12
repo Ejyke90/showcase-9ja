@@ -1,0 +1,302 @@
+[
+  {
+    "id": "music_001",
+    "categoryId": "music",
+    "question": "Who is widely credited as the father of Afrobeat?",
+    "options": [
+      { "id": "a", "text": "King Sunny Ade" },
+      { "id": "b", "text": "Fela Kuti" },
+      { "id": "c", "text": "Orlando Julius" },
+      { "id": "d", "text": "Ebenezer Obey" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Fela Anikulapo Kuti pioneered Afrobeat in the 1970s — a fusion of jazz, funk, and traditional Yoruba music with sharp political commentary against military rule.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "music_002",
+    "categoryId": "music",
+    "question": "Which Burna Boy album won the Grammy Award for Best Global Music Album in 2021?",
+    "options": [
+      { "id": "a", "text": "African Giant" },
+      { "id": "b", "text": "Twice as Tall" },
+      { "id": "c", "text": "Outside" },
+      { "id": "d", "text": "Love Damini" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Twice as Tall' (2020) won Burna Boy the Grammy for Best Global Music Album at the 63rd Grammy Awards in 2021, cementing his global superstar status.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "music_003",
+    "categoryId": "music",
+    "question": "What genre did King Sunny Ade pioneer and popularise globally?",
+    "options": [
+      { "id": "a", "text": "Highlife" },
+      { "id": "b", "text": "Afrobeat" },
+      { "id": "c", "text": "Jùjú music" },
+      { "id": "d", "text": "Fuji" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "King Sunny Ade is the undisputed king of Jùjú music — a Nigerian genre blending traditional Yoruba music with talking drums, guitar, and steel guitar.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "music_004",
+    "categoryId": "music",
+    "question": "Wizkid's collaboration with Drake on which 2016 smash hit reached #1 globally?",
+    "options": [
+      { "id": "a", "text": "Come Closer" },
+      { "id": "b", "text": "Essence" },
+      { "id": "c", "text": "One Dance" },
+      { "id": "d", "text": "Joro" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "'One Dance' by Drake featuring Wizkid reached #1 in over 15 countries and became one of the best-selling singles ever, exposing Afrobeats to a global mainstream audience.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "music_005",
+    "categoryId": "music",
+    "question": "Which Nigerian artist is known as the 'Mama Africa'?",
+    "options": [
+      { "id": "a", "text": "Tiwa Savage" },
+      { "id": "b", "text": "Yemi Alade" },
+      { "id": "c", "text": "Onyeka Onwenu" },
+      { "id": "d", "text": "Omawumi" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Yemi Alade earned the title 'Mama Africa' thanks to her massive pan-African appeal, high-energy performances, and hit songs across the continent including 'Johnny'.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "music_006",
+    "categoryId": "music",
+    "question": "Wizkid's 2020 song 'Essence' featuring Tems won what major award?",
+    "options": [
+      { "id": "a", "text": "BET Award for Best New Artist" },
+      { "id": "b", "text": "Grammy for Best Global Music Performance" },
+      { "id": "c", "text": "MTV Africa Music Award" },
+      { "id": "d", "text": "MOBO Award for Best African Act" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Essence' won Best Global Music Performance at the 2023 Grammy Awards — a historic moment for Afrobeats on the world's biggest music stage.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "music_007",
+    "categoryId": "music",
+    "question": "The 'Shaku Shaku' dance originated from which Nigerian city?",
+    "options": [
+      { "id": "a", "text": "Abuja" },
+      { "id": "b", "text": "Port Harcourt" },
+      { "id": "c", "text": "Lagos" },
+      { "id": "d", "text": "Kano" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Shaku Shaku is a Lagos-born street dance that went viral around 2017-2018, popularised by artists like Olamide. It involves a distinctive arm-swinging, feet-lifting movement.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "music_008",
+    "categoryId": "music",
+    "question": "2Baba (formerly 2Face Idibia) is originally from which Nigerian state?",
+    "options": [
+      { "id": "a", "text": "Lagos State" },
+      { "id": "b", "text": "Benue State" },
+      { "id": "c", "text": "Anambra State" },
+      { "id": "d", "text": "Delta State" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Innocent Idibia (2Baba) was born in Jos, Plateau State but is of Benue State origin. His 2004 hit 'African Queen' remains one of Nigeria's most celebrated songs.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "music_009",
+    "categoryId": "music",
+    "question": "P-Square is a music duo made up of which twin brothers?",
+    "options": [
+      { "id": "a", "text": "Peter and Paul Okoye" },
+      { "id": "b", "text": "Emeka and Chidi Okafor" },
+      { "id": "c", "text": "Femi and Seun Kuti" },
+      { "id": "d", "text": "Tunde and Wunmi Obe" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "P-Square is the duo of identical twins Peter and Paul Okoye from Anambra State. Their hits like 'Personally', 'Chop My Money', and 'Do Me' dominated African music for over a decade.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "music_010",
+    "categoryId": "music",
+    "question": "Femi Kuti is the son of Fela Kuti and is known for playing which instrument?",
+    "options": [
+      { "id": "a", "text": "Trumpet" },
+      { "id": "b", "text": "Talking drum" },
+      { "id": "c", "text": "Saxophone" },
+      { "id": "d", "text": "Electric bass" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Femi Kuti is a multi-Grammy nominated musician who plays alto saxophone, continuing his father Fela's Afrobeat legacy through the New Afrika Shrine in Lagos.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "music_011",
+    "categoryId": "music",
+    "question": "Which Nigerian rapper is known for 'Street OT' and 'Wo!!'?",
+    "options": [
+      { "id": "a", "text": "Vector" },
+      { "id": "b", "text": "Olamide" },
+      { "id": "c", "text": "Phyno" },
+      { "id": "d", "text": "M.I Abaga" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Olamide (YBNL Nation) is one of Nigeria's greatest rappers. His street anthems in Yoruba and Pidgin — like 'Wo!!', 'Durosoke', and 'Who You Epp' — made him the voice of the streets.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "music_012",
+    "categoryId": "music",
+    "question": "Rema is from which Nigerian city?",
+    "options": [
+      { "id": "a", "text": "Lagos" },
+      { "id": "b", "text": "Ibadan" },
+      { "id": "c", "text": "Benin City" },
+      { "id": "d", "text": "Warri" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Divine Ikubor (Rema) is from Benin City, Edo State. His 2023 hit 'Calm Down' became one of the most streamed Afrobeats songs globally.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "music_013",
+    "categoryId": "music",
+    "question": "Which music label was founded by Don Jazzy and initially launched D'banj, Wande Coal, and Tiwa Savage?",
+    "options": [
+      { "id": "a", "text": "Aristokrat Records" },
+      { "id": "b", "text": "YBNL Nation" },
+      { "id": "c", "text": "Mavin Records" },
+      { "id": "d", "text": "Chocolate City" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Mavin Records was founded by Don Jazzy in 2012 after Mo'Hits. It launched careers of Tiwa Savage, Wande Coal, Reekado Banks, Korede Bello, and now Ayra Starr and Johnny Drille.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "music_014",
+    "categoryId": "music",
+    "question": "'Afrojuju' is a genre pioneered by which Nigerian musician?",
+    "options": [
+      { "id": "a", "text": "Onyeka Onwenu" },
+      { "id": "b", "text": "Sir Shina Peters" },
+      { "id": "c", "text": "Lagbaja" },
+      { "id": "d", "text": "Sound Sultan" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Sir Shina Peters (SSP) pioneered Afrojuju in the late 1980s — a high-energy blend of Jùjú and Afrobeat with faster rhythms. His 1989 album 'Ace' was a massive hit.",
+    "difficulty": "hard",
+    "pointValue": 300
+  },
+  {
+    "id": "music_015",
+    "categoryId": "music",
+    "question": "Tems' breakout song that featured Wizkid is:",
+    "options": [
+      { "id": "a", "text": "Higher" },
+      { "id": "b", "text": "Essence" },
+      { "id": "c", "text": "Free Mind" },
+      { "id": "d", "text": "Replay" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Essence' (2020) by Wizkid featuring Tems catapulted Tems to international stardom. She later became the first African woman to win a Grammy (2023 Best Global Music Performance).",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "music_016",
+    "categoryId": "music",
+    "question": "Which year did Fela Kuti found his independent commune 'Kalakuta Republic' in Lagos?",
+    "options": [
+      { "id": "a", "text": "1968" },
+      { "id": "b", "text": "1970" },
+      { "id": "c", "text": "1977" },
+      { "id": "d", "text": "1982" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Fela declared his home compound in Lagos the 'Kalakuta Republic' in 1970 — a self-declared sovereign state and commune that became a centre of political resistance and music creation.",
+    "difficulty": "hard",
+    "pointValue": 300
+  },
+  {
+    "id": "music_017",
+    "categoryId": "music",
+    "question": "Davido's record label DAVIDO MUSIC WORLDWIDE (DMW) first signed which artist?",
+    "options": [
+      { "id": "a", "text": "Dremo" },
+      { "id": "b", "text": "Sina Rambo" },
+      { "id": "c", "text": "Mayorkun" },
+      { "id": "d", "text": "Peruzzi" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Sina Rambo (Davido's cousin) was one of the first artists signed to HKN Music (Davido's original label). Mayorkun later became one of DMW's biggest solo acts.",
+    "difficulty": "hard",
+    "pointValue": 300
+  },
+  {
+    "id": "music_018",
+    "categoryId": "music",
+    "question": "Patoranking blends Afrobeats with which Caribbean genre?",
+    "options": [
+      { "id": "a", "text": "Soca" },
+      { "id": "b", "text": "Reggae/Dancehall" },
+      { "id": "c", "text": "Calypso" },
+      { "id": "d", "text": "Zouk" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Patoranking is known for fusing Afrobeats with Reggae and Dancehall influences, creating a distinctive sound. His hit 'Girlie O' and 'My Woman My Everything' showcase this blend.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "music_019",
+    "categoryId": "music",
+    "question": "Which Nigerian music award show is considered the most prestigious?",
+    "options": [
+      { "id": "a", "text": "City People Music Awards" },
+      { "id": "b", "text": "Nigeria Entertainment Awards" },
+      { "id": "c", "text": "The Headies" },
+      { "id": "d", "text": "Nigeria Music Awards" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "The Headies (formerly Hip Hop World Awards, founded 2006) is Nigeria's most prestigious music award show, often called the 'Nigerian Grammys', covering all genres of Nigerian music.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "music_020",
+    "categoryId": "music",
+    "question": "Ayra Starr's debut single that made her a household name is:",
+    "options": [
+      { "id": "a", "text": "Bloody Samaritan" },
+      { "id": "b", "text": "Away" },
+      { "id": "c", "text": "Crocodile Teeth" },
+      { "id": "d", "text": "Rush" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Ayra Starr (Oyinkansola Aderibigbe) broke through with 'Away' (2021) from her self-titled debut EP. She was signed to Mavin Records and quickly became one of Afrobeats' brightest stars.",
+    "difficulty": "medium",
+    "pointValue": 200
+  }
+]

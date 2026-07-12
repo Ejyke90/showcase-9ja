@@ -1,0 +1,302 @@
+[
+  {
+    "id": "geo_001",
+    "categoryId": "geography",
+    "question": "What is the capital city of Nigeria?",
+    "options": [
+      { "id": "a", "text": "Lagos" },
+      { "id": "b", "text": "Ibadan" },
+      { "id": "c", "text": "Abuja" },
+      { "id": "d", "text": "Kano" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Abuja became Nigeria's capital in 1991, replacing Lagos. It was purpose-built in the centre of the country to be more neutral among Nigeria's diverse regions and ethnic groups.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "geo_002",
+    "categoryId": "geography",
+    "question": "How many states does Nigeria have (not including the FCT)?",
+    "options": [
+      { "id": "a", "text": "30" },
+      { "id": "b", "text": "34" },
+      { "id": "c", "text": "36" },
+      { "id": "d", "text": "38" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Nigeria has 36 states plus the Federal Capital Territory (FCT) Abuja. The most recent states were created in 1991 and 1996 under military rule.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "geo_003",
+    "categoryId": "geography",
+    "question": "Which river gives Nigeria its name?",
+    "options": [
+      { "id": "a", "text": "River Benue" },
+      { "id": "b", "text": "River Niger" },
+      { "id": "c", "text": "River Osun" },
+      { "id": "d", "text": "River Cross" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Nigeria is named after the River Niger, which flows through the western part of the country. The River Niger and River Benue meet at Lokoja, Kogi State.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "geo_004",
+    "categoryId": "geography",
+    "question": "What is the highest point (mountain) in Nigeria?",
+    "options": [
+      { "id": "a", "text": "Zuma Rock (Abuja)" },
+      { "id": "b", "text": "Obudu Mountain (Cross River)" },
+      { "id": "c", "text": "Chappal Waddi (Taraba State)" },
+      { "id": "d", "text": "Jos Plateau (Plateau State)" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Chappal Waddi ('Mountain of Death' in Fulani) in Taraba State is Nigeria's highest peak at 2,419 metres above sea level. It's located in the Gashaka Gumti National Park.",
+    "difficulty": "hard",
+    "pointValue": 300
+  },
+  {
+    "id": "geo_005",
+    "categoryId": "geography",
+    "question": "Nigeria shares land borders with how many countries?",
+    "options": [
+      { "id": "a", "text": "3" },
+      { "id": "b", "text": "4" },
+      { "id": "c", "text": "5" },
+      { "id": "d", "text": "6" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Nigeria shares land borders with 4 countries: Benin (west), Niger (north), Chad (northeast), and Cameroon (east and southeast). It is also bordered by the Atlantic Ocean/Gulf of Guinea to the south.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "geo_006",
+    "categoryId": "geography",
+    "question": "In which year did Abuja officially become Nigeria's capital city?",
+    "options": [
+      { "id": "a", "text": "1979" },
+      { "id": "b", "text": "1985" },
+      { "id": "c", "text": "1991" },
+      { "id": "d", "text": "1999" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Abuja officially became Nigeria's federal capital on December 12, 1991, though it was under construction since the late 1970s. Government ministries gradually moved from Lagos throughout the 1980s-90s.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "geo_007",
+    "categoryId": "geography",
+    "question": "Which Nigerian state is the largest by land area?",
+    "options": [
+      { "id": "a", "text": "Borno State" },
+      { "id": "b", "text": "Niger State" },
+      { "id": "c", "text": "Taraba State" },
+      { "id": "d", "text": "Kaduna State" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Niger State is Nigeria's largest state by land area at approximately 76,363 km². It borders the FCT Abuja and has vast forest reserves along the River Niger basin.",
+    "difficulty": "hard",
+    "pointValue": 300
+  },
+  {
+    "id": "geo_008",
+    "categoryId": "geography",
+    "question": "The iconic 'Zuma Rock' natural monolith is located near which Nigerian city?",
+    "options": [
+      { "id": "a", "text": "Ibadan" },
+      { "id": "b", "text": "Abuja / Niger State border" },
+      { "id": "c", "text": "Benin City" },
+      { "id": "d", "text": "Kaduna" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Zuma Rock is a 725-metre-tall monolith located at the border between Abuja FCT and Niger State, visible on the Abuja-Kaduna road. It appears on the 100 Naira note.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "geo_009",
+    "categoryId": "geography",
+    "question": "The Rivers Benue and Niger confluence (meeting point) is in which city?",
+    "options": [
+      { "id": "a", "text": "Onitsha" },
+      { "id": "b", "text": "Makurdi" },
+      { "id": "c", "text": "Lokoja" },
+      { "id": "d", "text": "Idah" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Lokoja in Kogi State is known as the 'Confluence City' because it is where the River Niger and River Benue meet. Lokoja was also the first administrative capital of colonial Nigeria.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "geo_010",
+    "categoryId": "geography",
+    "question": "The Yankari National Park is located in which Nigerian state?",
+    "options": [
+      { "id": "a", "text": "Plateau State" },
+      { "id": "b", "text": "Adamawa State" },
+      { "id": "c", "text": "Bauchi State" },
+      { "id": "d", "text": "Gombe State" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Yankari National Park in Bauchi State is Nigeria's most popular game reserve, covering over 2,000 km². It's famous for its warm springs (Wikki Warm Spring) and wildlife including elephants.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "geo_011",
+    "categoryId": "geography",
+    "question": "Which Nigerian state is called 'The Gateway State'?",
+    "options": [
+      { "id": "a", "text": "Lagos State" },
+      { "id": "b", "text": "Ogun State" },
+      { "id": "c", "text": "Oyo State" },
+      { "id": "d", "text": "Kwara State" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Ogun State is nicknamed 'The Gateway State' because it serves as the gateway to Lagos from the rest of southern Nigeria and West Africa. Its capital is Abeokuta.",
+    "difficulty": "medium",
+    "pointValue": "200"
+  },
+  {
+    "id": "geo_012",
+    "categoryId": "geography",
+    "question": "The Niger Delta region of Nigeria is primarily known for:",
+    "options": [
+      { "id": "a", "text": "Agricultural cocoa production" },
+      { "id": "b", "text": "Petroleum (oil) production" },
+      { "id": "c", "text": "Gold and diamond mining" },
+      { "id": "d", "text": "Fishing and tourism" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The Niger Delta in southern Nigeria contains the country's major oil and gas reserves. Nigeria is Africa's largest oil producer. The region includes states like Rivers, Delta, Bayelsa, and Akwa Ibom.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "geo_013",
+    "categoryId": "geography",
+    "question": "Which geopolitical zone in Nigeria has the most states (7 states)?",
+    "options": [
+      { "id": "a", "text": "North-East" },
+      { "id": "b", "text": "South-West" },
+      { "id": "c", "text": "North-West" },
+      { "id": "d", "text": "North-Central" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "The North-West geopolitical zone has 7 states: Jigawa, Kaduna, Kano, Katsina, Kebbi, Sokoto, and Zamfara. Nigeria has 6 geopolitical zones total.",
+    "difficulty": "hard",
+    "pointValue": 300
+  },
+  {
+    "id": "geo_014",
+    "categoryId": "geography",
+    "question": "Nigeria's coastline runs along which body of water?",
+    "options": [
+      { "id": "a", "text": "Indian Ocean" },
+      { "id": "b", "text": "Mediterranean Sea" },
+      { "id": "c", "text": "Gulf of Guinea (Atlantic Ocean)" },
+      { "id": "d", "text": "Gulf of Aden" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Nigeria has approximately 853 km of coastline along the Gulf of Guinea, part of the Atlantic Ocean. The coastline includes the Niger Delta with its many creeks and mangroves.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "geo_015",
+    "categoryId": "geography",
+    "question": "Sokoto is referred to as the 'Seat of the' what?",
+    "options": [
+      { "id": "a", "text": "Oba" },
+      { "id": "b", "text": "Caliphate" },
+      { "id": "c", "text": "Republic" },
+      { "id": "d", "text": "Federation" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Sokoto is the 'Seat of the Caliphate' — home of the Sultan of Sokoto, the spiritual leader of Nigerian Muslims. The Sokoto Caliphate was founded by Usman dan Fodio in 1804.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "geo_016",
+    "categoryId": "geography",
+    "question": "The Cross River National Park in Cross River State is famous for which animal?",
+    "options": [
+      { "id": "a", "text": "African Lion" },
+      { "id": "b", "text": "Cross River Gorilla" },
+      { "id": "c", "text": "Black Rhinoceros" },
+      { "id": "d", "text": "African Elephant" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Cross River National Park is home to the critically endangered Cross River Gorilla (Gorilla gorilla diehli), one of the rarest great apes on Earth with only about 200-300 remaining.",
+    "difficulty": "hard",
+    "pointValue": 300
+  },
+  {
+    "id": "geo_017",
+    "categoryId": "geography",
+    "question": "Port Harcourt is the capital of which Nigerian state?",
+    "options": [
+      { "id": "a", "text": "Delta State" },
+      { "id": "b", "text": "Bayelsa State" },
+      { "id": "c", "text": "Rivers State" },
+      { "id": "d", "text": "Akwa Ibom State" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Port Harcourt is the capital of Rivers State and Nigeria's petroleum industry hub. It is the country's third-largest city and the main base for oil companies operating in the Niger Delta.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "geo_018",
+    "categoryId": "geography",
+    "question": "What is the approximate population of Nigeria, making it Africa's most populous country?",
+    "options": [
+      { "id": "a", "text": "100 million" },
+      { "id": "b", "text": "150 million" },
+      { "id": "c", "text": "Over 200 million" },
+      { "id": "d", "text": "300 million" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Nigeria has a population of over 220 million people (2024 estimates), making it Africa's most populous nation and the 7th most populous country in the world. The population is projected to exceed 400 million by 2050.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "geo_019",
+    "categoryId": "geography",
+    "question": "The ancient city of Kano is famous for which historical structure?",
+    "options": [
+      { "id": "a", "text": "The Great Wall of Kano" },
+      { "id": "b", "text": "The Kano City Walls (Ganuwar Kano)" },
+      { "id": "c", "text": "The Kano Pyramid" },
+      { "id": "d", "text": "The Grand Mosque of Kano" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Kano's ancient city walls (Ganuwar Kano) were built over 1,000 years ago and once stretched over 20km. Though partially ruined, sections remain as one of Nigeria's most important historical landmarks.",
+    "difficulty": "hard",
+    "pointValue": 300
+  },
+  {
+    "id": "geo_020",
+    "categoryId": "geography",
+    "question": "Which Nigerian city is the centre of the country's groundnut (peanut) pyramids, now a historical symbol?",
+    "options": [
+      { "id": "a", "text": "Sokoto" },
+      { "id": "b", "text": "Maiduguri" },
+      { "id": "c", "text": "Kano" },
+      { "id": "d", "text": "Kaduna" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Kano was famous for its towering groundnut pyramids — massive stacks of groundnut sacks that were a symbol of Northern Nigeria's agricultural wealth in the 1950s-70s before oil replaced agriculture as the main income source.",
+    "difficulty": "medium",
+    "pointValue": 200
+  }
+]

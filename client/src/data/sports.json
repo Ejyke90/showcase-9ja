@@ -1,0 +1,302 @@
+[
+  {
+    "id": "sports_001",
+    "categoryId": "sports",
+    "question": "In which year did Nigeria's Super Eagles win the Olympic gold medal in football?",
+    "options": [
+      { "id": "a", "text": "1992, Barcelona" },
+      { "id": "b", "text": "1996, Atlanta" },
+      { "id": "c", "text": "2000, Sydney" },
+      { "id": "d", "text": "2004, Athens" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Nigeria's Dream Team won gold at the 1996 Atlanta Olympics, defeating Argentina 3-2 in a legendary semifinal comeback and beating Brazil 3-2 in the final. It remains Nigeria's greatest football achievement.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "sports_002",
+    "categoryId": "sports",
+    "question": "Nigeria's national football team is nicknamed:",
+    "options": [
+      { "id": "a", "text": "The Lions" },
+      { "id": "b", "text": "The Super Eagles" },
+      { "id": "c", "text": "The Green Warriors" },
+      { "id": "d", "text": "The Stallions" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The Super Eagles is the nickname of Nigeria's senior men's national football team. The women's team is called the Super Falcons, and the U-23 team is the Dream Team.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "sports_003",
+    "categoryId": "sports",
+    "question": "Chioma Ajunwa won Nigeria's first individual Olympic gold medal in which sport?",
+    "options": [
+      { "id": "a", "text": "100 metres sprint" },
+      { "id": "b", "text": "Long jump" },
+      { "id": "c", "text": "Triple jump" },
+      { "id": "d", "text": "Javelin" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Chioma Ajunwa won gold in the long jump at the 1996 Atlanta Olympics with a leap of 7.12m — Nigeria's first individual Olympic gold medal ever.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "sports_004",
+    "categoryId": "sports",
+    "question": "How many times has Nigeria won the Africa Cup of Nations (AFCON)?",
+    "options": [
+      { "id": "a", "text": "2 times" },
+      { "id": "b", "text": "3 times" },
+      { "id": "c", "text": "4 times" },
+      { "id": "d", "text": "5 times" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Nigeria has won AFCON 3 times: 1980 (as hosts), 1994, and 2013. They've been runners-up twice. The Super Falcons have won WAFCON (women's AFCON) a record 11 times.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "sports_005",
+    "categoryId": "sports",
+    "question": "Nwankwo Kanu won the UEFA Champions League with which club?",
+    "options": [
+      { "id": "a", "text": "Arsenal" },
+      { "id": "b", "text": "Inter Milan" },
+      { "id": "c", "text": "Ajax" },
+      { "id": "d", "text": "Porto" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Nwankwo Kanu won the Champions League with Ajax in 1995. He also won the 1996 Olympic gold with Nigeria. At Ajax, he played alongside luminaries like Patrick Kluivert and Clarence Seedorf.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "sports_006",
+    "categoryId": "sports",
+    "question": "Nigeria made its FIFA World Cup debut in which year?",
+    "options": [
+      { "id": "a", "text": "1990, Italy" },
+      { "id": "b", "text": "1994, USA" },
+      { "id": "c", "text": "1998, France" },
+      { "id": "d", "text": "2002, Japan/Korea" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Nigeria first appeared at the FIFA World Cup in 1994 in the USA, reaching the Round of 16. They impressed the world with wins over Bulgaria and Greece before losing to Italy in extra time.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "sports_007",
+    "categoryId": "sports",
+    "question": "Which legendary Nigerian footballer was known for his extraordinary dribbling and nicknamed 'Jay Jay'?",
+    "options": [
+      { "id": "a", "text": "Sunday Oliseh" },
+      { "id": "b", "text": "Finidi George" },
+      { "id": "c", "text": "Austin Jay Jay Okocha" },
+      { "id": "d", "text": "Taribo West" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Austin Jay Jay Okocha is considered one of Nigeria's greatest ever players. His mesmerising dribbling ability prompted the fan chant: 'Jay Jay Okocha, so good they named him twice!'",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "sports_008",
+    "categoryId": "sports",
+    "question": "Blessing Oborududu won an Olympic silver medal at the 2020 Tokyo Olympics in which sport?",
+    "options": [
+      { "id": "a", "text": "Boxing" },
+      { "id": "b", "text": "Judo" },
+      { "id": "c", "text": "Wrestling" },
+      { "id": "d", "text": "Taekwondo" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Blessing Oborududu became the first Nigerian woman to win an Olympic medal in wrestling at the 2020 Tokyo Olympics (2021), winning silver in the women's freestyle 68kg category.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "sports_009",
+    "categoryId": "sports",
+    "question": "Nigeria's national basketball team is nicknamed:",
+    "options": [
+      { "id": "a", "text": "D'Eagles" },
+      { "id": "b", "text": "D'Generals" },
+      { "id": "c", "text": "D'Tigers" },
+      { "id": "d", "text": "D'Champs" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Nigeria's men's basketball team is called D'Tigers and the women's team is D'Tigress. D'Tigers made history in 2021 when they became the first African team to beat Team USA in Olympic basketball history.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "sports_010",
+    "categoryId": "sports",
+    "question": "Who holds the record as Nigeria's all-time top scorer in international football?",
+    "options": [
+      { "id": "a", "text": "Odion Ighalo" },
+      { "id": "b", "text": "Rashidi Yekini" },
+      { "id": "c", "text": "Nwankwo Kanu" },
+      { "id": "d", "text": "Victor Osimhen" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Rashidi Yekini is Nigeria's all-time leading scorer with 37 goals in 58 appearances. He scored Nigeria's first-ever World Cup goal in 1994 against Bulgaria — his iconic celebration is legendary.",
+    "difficulty": "hard",
+    "pointValue": 300
+  },
+  {
+    "id": "sports_011",
+    "categoryId": "sports",
+    "question": "The MKO Abiola National Stadium (formerly National Stadium) is located in which Nigerian city?",
+    "options": [
+      { "id": "a", "text": "Lagos" },
+      { "id": "b", "text": "Port Harcourt" },
+      { "id": "c", "text": "Abuja" },
+      { "id": "d", "text": "Kano" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "The MKO Abiola National Stadium (formerly Abuja National Stadium) is Nigeria's premier sports facility in Abuja, the FCT. The Lagos National Stadium in Surulere is also a major venue.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "sports_012",
+    "categoryId": "sports",
+    "question": "Victor Osimhen was the Serie A top scorer (Capocannoniere) in which season?",
+    "options": [
+      { "id": "a", "text": "2020-21" },
+      { "id": "b", "text": "2021-22" },
+      { "id": "c", "text": "2022-23" },
+      { "id": "d", "text": "2023-24" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Victor Osimhen won the Serie A Golden Boot (Capocannoniere) in the 2022-23 season with 26 goals for Napoli, who also won the Scudetto that season — their first league title in 33 years.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "sports_013",
+    "categoryId": "sports",
+    "question": "Which Nigerian boxer is a multiple heavyweight world champion known as 'The Nigerian Nightmare'?",
+    "options": [
+      { "id": "a", "text": "Samuel Peter" },
+      { "id": "b", "text": "Dick Tiger" },
+      { "id": "c", "text": "Ike Ibeabuchi" },
+      { "id": "d", "text": "Samuel Adekoya" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Samuel Peter is nicknamed 'The Nigerian Nightmare'. Dick Tiger was a legendary Nigerian middleweight/light-heavyweight world champion in the 1960s, widely considered one of Nigeria's greatest boxers ever.",
+    "difficulty": "hard",
+    "pointValue": 300
+  },
+  {
+    "id": "sports_014",
+    "categoryId": "sports",
+    "question": "The Nigeria women's football team, Super Falcons, have won the Africa Women Cup of Nations how many times?",
+    "options": [
+      { "id": "a", "text": "6 times" },
+      { "id": "b", "text": "9 times" },
+      { "id": "c", "text": "11 times" },
+      { "id": "d", "text": "13 times" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Nigeria's Super Falcons have won the Africa Women Cup of Nations (AWCON) a record 11 times, making them the most successful women's national team in African football history.",
+    "difficulty": "hard",
+    "pointValue": 300
+  },
+  {
+    "id": "sports_015",
+    "categoryId": "sports",
+    "question": "Emmanuel Amuneke scored how many goals to help Nigeria win the 1994 AFCON?",
+    "options": [
+      { "id": "a", "text": "2" },
+      { "id": "b", "text": "3" },
+      { "id": "c", "text": "4" },
+      { "id": "d", "text": "5" }
+    ],
+    "correctOptionId": "d",
+    "explanation": "Emmanuel Amuneke scored 5 goals at the 1994 AFCON in Tunisia, winning the Golden Boot as top scorer. Nigeria beat Zambia 2-1 in the final. Amuneke is now the head coach of Nigeria's U-20 team.",
+    "difficulty": "hard",
+    "pointValue": 300
+  },
+  {
+    "id": "sports_016",
+    "categoryId": "sports",
+    "question": "Who was Nigeria's goalkeeper during the 1994 and 1998 FIFA World Cups?",
+    "options": [
+      { "id": "a", "text": "Vincent Enyeama" },
+      { "id": "b", "text": "Carl Ikeme" },
+      { "id": "c", "text": "Peter Rufai" },
+      { "id": "d", "text": "Ike Shorunmu" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Peter Rufai (nicknamed 'The Legend') was Nigeria's No.1 goalkeeper at the 1994 and 1998 World Cups. His performances were instrumental in Nigeria's qualification and tournament runs.",
+    "difficulty": "hard",
+    "pointValue": 300
+  },
+  {
+    "id": "sports_017",
+    "categoryId": "sports",
+    "question": "Kelechi Iheanacho won which English Premier League title with Leicester City?",
+    "options": [
+      { "id": "a", "text": "2014-15" },
+      { "id": "b", "text": "2015-16" },
+      { "id": "c", "text": "2016-17" },
+      { "id": "d", "text": "2017-18" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Kelechi Iheanacho was part of Leicester City's miraculous 2015-16 Premier League title-winning squad under manager Claudio Ranieri — one of the biggest upsets in sports history.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "sports_018",
+    "categoryId": "sports",
+    "question": "Nigeria's 'Dream Team' at the 1996 Olympics defeated which South American giant in a stunning semifinal?",
+    "options": [
+      { "id": "a", "text": "Brazil" },
+      { "id": "b", "text": "Uruguay" },
+      { "id": "c", "text": "Argentina" },
+      { "id": "d", "text": "Chile" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Nigeria came back from 3-1 down to beat Argentina 4-3 in the semifinal, then defeated Brazil 3-2 in the final. That Argentina squad included Hernan Crespo, Claudio Lopez, and Roberto Ayala.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "sports_019",
+    "categoryId": "sports",
+    "question": "Which Nigerian-born athlete won the Tour de France in any year?",
+    "options": [
+      { "id": "a", "text": "Adewale Adeleke" },
+      { "id": "b", "text": "No Nigerian has won the Tour de France" },
+      { "id": "c", "text": "Emmanuel Ikhioya" },
+      { "id": "d", "text": "Chinedu Nwosu" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "No Nigerian-born athlete has won the Tour de France. Cycling is not a major sport in Nigeria. This question tests whether players know the limits of Nigeria's international sporting achievements.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "sports_020",
+    "categoryId": "sports",
+    "question": "Tobi Amusan set a world record in which athletics event in 2022?",
+    "options": [
+      { "id": "a", "text": "100m hurdles" },
+      { "id": "b", "text": "400m hurdles" },
+      { "id": "c", "text": "Long jump" },
+      { "id": "d", "text": "Triple jump" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Tobi Amusan ran 12.12 seconds in the 100m hurdles semifinal at the 2022 World Athletics Championships in Eugene, Oregon — a world record (though later subject to anti-doping scrutiny).",
+    "difficulty": "hard",
+    "pointValue": 300
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "id": "food_001",
+    "categoryId": "food",
+    "question": "What is the main thickening agent in Ogbono soup?",
+    "options": [
+      { "id": "a", "text": "Melon seeds" },
+      { "id": "b", "text": "Wild mango seeds" },
+      { "id": "c", "text": "Crayfish powder" },
+      { "id": "d", "text": "Cornstarch" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Ogbono soup is made from ground wild mango seeds (Irvingia gabonensis) which give it its signature slimy, draw texture.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "food_002",
+    "categoryId": "food",
+    "question": "What is 'Eba' made from?",
+    "options": [
+      { "id": "a", "text": "Yam flour" },
+      { "id": "b", "text": "Corn flour" },
+      { "id": "c", "text": "Garri (dried cassava)" },
+      { "id": "d", "text": "Rice flour" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Eba is made by mixing garri (processed cassava flakes) with hot water to form a firm dough used as a swallow.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "food_003",
+    "categoryId": "food",
+    "question": "Which leaf is traditionally used to wrap Moin Moin?",
+    "options": [
+      { "id": "a", "text": "Scent leaf" },
+      { "id": "b", "text": "Uma leaf / banana leaf" },
+      { "id": "c", "text": "Bay leaf" },
+      { "id": "d", "text": "Uziza leaf" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Traditional Moin Moin is wrapped in Uma (banana/plantain) leaves before steaming, which adds an earthy aroma to the dish.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "food_004",
+    "categoryId": "food",
+    "question": "What spice blend gives Suya its distinctive flavour?",
+    "options": [
+      { "id": "a", "text": "Jerk seasoning" },
+      { "id": "b", "text": "Berbere" },
+      { "id": "c", "text": "Yaji (suya spice)" },
+      { "id": "d", "text": "Ras el hanout" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Yaji is the spice blend used on Suya, typically containing ground peanuts, ginger, paprika, onion powder, and pepper.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "food_005",
+    "categoryId": "food",
+    "question": "Which Nigerian soup is primarily associated with the Urhobo people of Delta State?",
+    "options": [
+      { "id": "a", "text": "Egusi soup" },
+      { "id": "b", "text": "Oha soup" },
+      { "id": "c", "text": "Banga soup" },
+      { "id": "d", "text": "Afang soup" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Banga soup (also called Ofe Akwu) originates from the Niger Delta region and is made from palm nut extract, popular among Urhobo, Isoko, and Ijaw people.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "food_006",
+    "categoryId": "food",
+    "question": "What is 'Kilishi'?",
+    "options": [
+      { "id": "a", "text": "Fried plantain chips" },
+      { "id": "b", "text": "Sun-dried spiced beef jerky" },
+      { "id": "c", "text": "Smoked catfish" },
+      { "id": "d", "text": "Roasted peanuts with spices" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Kilishi is a Northern Nigerian delicacy: thin slices of beef marinated in a spiced peanut paste and sun-dried until crispy — Nigeria's answer to beef jerky.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "food_007",
+    "categoryId": "food",
+    "question": "What is 'Abacha' (African Salad) made from?",
+    "options": [
+      { "id": "a", "text": "Shredded dried cassava" },
+      { "id": "b", "text": "Pounded yam balls" },
+      { "id": "c", "text": "Ground corn and beans" },
+      { "id": "d", "text": "Fermented soybean" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Abacha is an Igbo delicacy made from dried shredded cassava, typically served with palm oil, ugba (oil bean), crayfish, and pepper.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "food_008",
+    "categoryId": "food",
+    "question": "Which Nigerian food is a fermented paste made from locust beans?",
+    "options": [
+      { "id": "a", "text": "Ogiri" },
+      { "id": "b", "text": "Iru / Dawadawa" },
+      { "id": "c", "text": "Ukpaka" },
+      { "id": "d", "text": "Ehuru" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Iru (Yoruba) or Dawadawa (Hausa) is a strong-smelling fermented locust bean condiment used as a flavour enhancer in Nigerian soups.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "food_009",
+    "categoryId": "food",
+    "question": "What is 'Tuwo Shinkafa'?",
+    "options": [
+      { "id": "a", "text": "Steamed corn pudding" },
+      { "id": "b", "text": "Thick soft rice pudding used as a swallow" },
+      { "id": "c", "text": "Ground yam balls in soup" },
+      { "id": "d", "text": "Mashed plantain with palm oil" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Tuwo Shinkafa is a smooth, thick rice-based swallow popular in Northern Nigeria, typically eaten with Miyan Kuka (baobab leaf soup).",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "food_010",
+    "categoryId": "food",
+    "question": "What makes the drink 'Zobo'?",
+    "options": [
+      { "id": "a", "text": "Tamarind pods" },
+      { "id": "b", "text": "Dried hibiscus (Roselle) petals" },
+      { "id": "c", "text": "Soursop leaves" },
+      { "id": "d", "text": "Ginger and lemon only" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Zobo is a refreshing Nigerian drink made by boiling dried Roselle (Hibiscus sabdariffa) petals with spices. It has a deep red colour and tart flavour.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "food_011",
+    "categoryId": "food",
+    "question": "Which protein is traditionally served in 'Nkwobi'?",
+    "options": [
+      { "id": "a", "text": "Goat head" },
+      { "id": "b", "text": "Smoked fish" },
+      { "id": "c", "text": "Cow leg / foot" },
+      { "id": "d", "text": "Chicken gizzard" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Nkwobi is a popular Igbo delicacy made from cow leg cooked in a spicy palm oil sauce with utazi leaves. It is a popular bar chop in Eastern Nigeria.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "food_012",
+    "categoryId": "food",
+    "question": "What is 'Ogi' (also called Akamu or Pap)?",
+    "options": [
+      { "id": "a", "text": "Fermented millet drink" },
+      { "id": "b", "text": "Fermented corn/sorghum porridge" },
+      { "id": "c", "text": "Pounded bean paste" },
+      { "id": "d", "text": "Coconut rice pudding" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Ogi (Akamu/Pap) is a soft porridge made from fermented corn, sorghum, or millet. It's a popular breakfast food and is also given to infants.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "food_013",
+    "categoryId": "food",
+    "question": "'Pepper soup' made specifically with goat head is known as what in Igbo?",
+    "options": [
+      { "id": "a", "text": "Ofe Onugbu" },
+      { "id": "b", "text": "Ngwo Ngwo" },
+      { "id": "c", "text": "Isiewu" },
+      { "id": "d", "text": "Ofe Akwu" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Isiewu is a spicy Igbo delicacy made from goat head (isi ewu), seasoned with utazi leaves, ehuru, and palm oil. Ngwo Ngwo uses cow offal.",
+    "difficulty": "hard",
+    "pointValue": 300
+  },
+  {
+    "id": "food_014",
+    "categoryId": "food",
+    "question": "Which Nigerian soup is primarily made with periwinkle and waterleaf?",
+    "options": [
+      { "id": "a", "text": "Edikaikong" },
+      { "id": "b", "text": "Egusi soup" },
+      { "id": "c", "text": "Efo Riro" },
+      { "id": "d", "text": "Oha soup" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Edikaikong is a nutritious Efik/Ibibio soup from Cross River and Akwa Ibom States, made with waterleaf, Afang leaves, periwinkle, and palm oil.",
+    "difficulty": "hard",
+    "pointValue": 300
+  },
+  {
+    "id": "food_015",
+    "categoryId": "food",
+    "question": "What is the bean cake street snack called in Yoruba?",
+    "options": [
+      { "id": "a", "text": "Kosai" },
+      { "id": "b", "text": "Akara" },
+      { "id": "c", "text": "Masa" },
+      { "id": "d", "text": "Waina" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Akara (bean cake) is made from blended peeled beans deep-fried in oil. Called Kosai in the North and Akara by the Yoruba, it's a beloved street food.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "food_016",
+    "categoryId": "food",
+    "question": "Which ingredient gives Ofe Onugbu (bitter leaf soup) its name?",
+    "options": [
+      { "id": "a", "text": "Uziza leaf" },
+      { "id": "b", "text": "Scent leaf" },
+      { "id": "c", "text": "Bitter leaf (Vernonia amygdalina)" },
+      { "id": "d", "text": "Utazi leaf" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Ofe Onugbu means 'bitter leaf soup' in Igbo. The soup uses bitter leaf (Vernonia amygdalina) which is washed repeatedly to reduce bitterness before cooking.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "food_017",
+    "categoryId": "food",
+    "question": "Efo Riro is a leafy vegetable soup from which ethnic group?",
+    "options": [
+      { "id": "a", "text": "Igbo" },
+      { "id": "b", "text": "Yoruba" },
+      { "id": "c", "text": "Hausa" },
+      { "id": "d", "text": "Ijaw" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Efo Riro ('cooked greens') is a Yoruba soup made with tete (amaranth) or spinach, palm oil, assorted meat, and iru (locust beans).",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "food_018",
+    "categoryId": "food",
+    "question": "What is the difference between 'white' and 'party' Jollof rice?",
+    "options": [
+      { "id": "a", "text": "Party Jollof uses more tomatoes" },
+      { "id": "b", "text": "Party Jollof is cooked over firewood giving a smoky bottom" },
+      { "id": "c", "text": "White Jollof has no seasoning" },
+      { "id": "d", "text": "They are the same thing" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The legendary 'party Jollof' is cooked over firewood in large pots at Nigerian celebrations, developing a smoky 'bottom pot' (party bottom) that is considered the ultimate prize.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "food_019",
+    "categoryId": "food",
+    "question": "Which Northern Nigerian food is made from fermented ground beans shaped and fried?",
+    "options": [
+      { "id": "a", "text": "Masa" },
+      { "id": "b", "text": "Waina" },
+      { "id": "c", "text": "Kosai" },
+      { "id": "d", "text": "Fura" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Kosai is the Hausa name for bean cake (akara) — ground beans spiced and deep-fried. Masa is fermented rice cake; Fura is a millet ball.",
+    "difficulty": "hard",
+    "pointValue": 300
+  },
+  {
+    "id": "food_020",
+    "categoryId": "food",
+    "question": "What is 'Ofe Akwu' made from?",
+    "options": [
+      { "id": "a", "text": "Coconut milk and chicken" },
+      { "id": "b", "text": "Palm nut extract with various proteins" },
+      { "id": "c", "text": "Peanut butter broth" },
+      { "id": "d", "text": "Okra and tomato base" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Ofe Akwu (palm nut soup) is an Igbo soup made from boiled and extracted palm nuts, cooked with assorted meat, fish, and spices. It is similar to Banga soup.",
+    "difficulty": "medium",
+    "pointValue": 200
+  }
+]

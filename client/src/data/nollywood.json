@@ -1,0 +1,302 @@
+[
+  {
+    "id": "nolly_001",
+    "categoryId": "nollywood",
+    "question": "By volume of films produced, Nollywood is the world's _____ largest film industry?",
+    "options": [
+      { "id": "a", "text": "Largest" },
+      { "id": "b", "text": "Second largest" },
+      { "id": "c", "text": "Third largest" },
+      { "id": "d", "text": "Fifth largest" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Nollywood is the world's second-largest film industry by volume of films produced annually (after Bollywood), producing over 2,500 films per year. It is also the third largest by revenue after Hollywood and Bollywood.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "nolly_002",
+    "categoryId": "nollywood",
+    "question": "Which 1992 film is widely credited as launching the modern Nollywood home-video era?",
+    "options": [
+      { "id": "a", "text": "Ritual" },
+      { "id": "b", "text": "Living in Bondage" },
+      { "id": "c", "text": "Glamour Girls" },
+      { "id": "d", "text": "Deadly Affair" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Living in Bondage' (1992), produced by Kenneth Nnebue and directed by Chris Obi Rapu, is considered the foundational film of modern Nollywood. Shot on VHS and sold as home videos, it sold over 750,000 copies and launched an industry.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "nolly_003",
+    "categoryId": "nollywood",
+    "question": "Who directed the acclaimed film 'King of Boys' (2018)?",
+    "options": [
+      { "id": "a", "text": "Kunle Afolayan" },
+      { "id": "b", "text": "Jade Osiberu" },
+      { "id": "c", "text": "Kemi Adetiba" },
+      { "id": "d", "text": "Tunde Kelani" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Kemi Adetiba directed 'King of Boys' (2018), starring Sola Sobowale as the ruthless political crime boss Eniola Salami. The film and its 2021 Netflix sequel became massive hits.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "nolly_004",
+    "categoryId": "nollywood",
+    "question": "Which actress is affectionately nicknamed 'Mama G'?",
+    "options": [
+      { "id": "a", "text": "Omotola Jalade-Ekeinde" },
+      { "id": "b", "text": "Genevieve Nnaji" },
+      { "id": "c", "text": "Patience Ozokwo" },
+      { "id": "d", "text": "Ngozi Ezeonu" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Patience Ozokwo, a veteran Nollywood actress from Enugu State, is nicknamed 'Mama G' for her iconic portrayals of wicked mothers-in-law and villains in countless Nigerian films.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "nolly_005",
+    "categoryId": "nollywood",
+    "question": "Genevieve Nnaji directed which film that became Nigeria's first Netflix Original?",
+    "options": [
+      { "id": "a", "text": "Half of a Yellow Sun" },
+      { "id": "b", "text": "Lionheart" },
+      { "id": "c", "text": "Dry" },
+      { "id": "d", "text": "The CEO" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Lionheart' (2018), directed by Genevieve Nnaji, became Nigeria's first Netflix Original film. It was also submitted as Nigeria's entry for the International Feature Film Oscar (later disqualified for language reasons).",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "nolly_006",
+    "categoryId": "nollywood",
+    "question": "'Half of a Yellow Sun' is a Nollywood film based on whose novel?",
+    "options": [
+      { "id": "a", "text": "Wole Soyinka" },
+      { "id": "b", "text": "Chinua Achebe" },
+      { "id": "c", "text": "Chimamanda Ngozi Adichie" },
+      { "id": "d", "text": "Ben Okri" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "'Half of a Yellow Sun' (2013) was directed by Biyi Bandele and adapted from Chimamanda Ngozi Adichie's 2006 Orange Prize-winning novel about the Biafran war, starring Chiwetel Ejiofor and Thandiwe Newton.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "nolly_007",
+    "categoryId": "nollywood",
+    "question": "Which streaming platform significantly boosted Nollywood's global reach from the 2020s?",
+    "options": [
+      { "id": "a", "text": "Amazon Prime Video" },
+      { "id": "b", "text": "Netflix" },
+      { "id": "c", "text": "HBO Max" },
+      { "id": "d", "text": "Apple TV+" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Netflix has been transformative for Nollywood's global reach, acquiring and co-producing Nigerian content including 'King of Boys 2', 'Blood Sisters', 'Shanty Town', and many others, making Nigerian stories accessible worldwide.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "nolly_008",
+    "categoryId": "nollywood",
+    "question": "Which Nollywood film broke box office records in Nigeria upon its 2016 release?",
+    "options": [
+      { "id": "a", "text": "Chief Daddy" },
+      { "id": "b", "text": "Ije" },
+      { "id": "c", "text": "The Wedding Party" },
+      { "id": "d", "text": "October 1" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "'The Wedding Party' (2016), produced by Kemi Adetiba and EbonyLife Films, became the highest-grossing Nollywood film at the time, earning over ₦450 million at the box office. Its sequel was equally successful.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "nolly_009",
+    "categoryId": "nollywood",
+    "question": "Richard Mofe-Damijo (RMD) is known by what nickname in Nollywood?",
+    "options": [
+      { "id": "a", "text": "The Veteran" },
+      { "id": "b", "text": "Lover Boy" },
+      { "id": "c", "text": "The Icon" },
+      { "id": "d", "text": "RMD" }
+    ],
+    "correctOptionId": "d",
+    "explanation": "Richard Mofe-Damijo goes by his initials 'RMD' as his professional name. He's one of Nollywood's most respected veteran actors, having also served as Delta State's Commissioner for Culture and Tourism.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "nolly_010",
+    "categoryId": "nollywood",
+    "question": "Who founded EbonyLife, one of Nollywood's most prominent production companies?",
+    "options": [
+      { "id": "a", "text": "Joke Silva" },
+      { "id": "b", "text": "Mo Abudu" },
+      { "id": "c", "text": "Kemi Adetiba" },
+      { "id": "d", "text": "Femi Odugbemi" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Mo Abudu founded EbonyLife TV and EbonyLife Films. She is a pioneering Nigerian media mogul who has produced numerous acclaimed projects including 'The Wedding Party', 'Chief Daddy', and partnerships with Netflix and Sony.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "nolly_011",
+    "categoryId": "nollywood",
+    "question": "'Africa Magic' Nollywood channel is owned by which company?",
+    "options": [
+      { "id": "a", "text": "EbonyLife" },
+      { "id": "b", "text": "MultiChoice / DStv" },
+      { "id": "c", "text": "Iroko TV" },
+      { "id": "d", "text": "Canal+ Africa" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Africa Magic is a group of channels owned by MultiChoice (home of DStv) dedicated to African, particularly Nollywood, content. It has multiple channels including Africa Magic Yoruba, Igbo, and Hausa.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "nolly_012",
+    "categoryId": "nollywood",
+    "question": "Funke Akindele is famous for which long-running comedy film franchise?",
+    "options": [
+      { "id": "a", "text": "30 Days in Atlanta" },
+      { "id": "b", "text": "Jenifa's Diary" },
+      { "id": "c", "text": "Omo Ghetto" },
+      { "id": "d", "text": "A Tribe Called Judah" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Funke Akindele created and stars in the 'Jenifa' franchise — starting with 'Jenifa' (2008) and evolving into 'Jenifa's Diary' TV series. She's also known for directing 'A Tribe Called Judah' (2023).",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "nolly_013",
+    "categoryId": "nollywood",
+    "question": "Ramsey Nouah was nicknamed what in early Nollywood?",
+    "options": [
+      { "id": "a", "text": "The Chief" },
+      { "id": "b", "text": "Lover Boy of Nollywood" },
+      { "id": "c", "text": "The Action King" },
+      { "id": "d", "text": "Mr. Perfect" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Ramsey Nouah earned the nickname 'Lover Boy of Nollywood' in the late 1990s and 2000s for his many romantic lead roles. He has since evolved into a director and diverse actor.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "nolly_014",
+    "categoryId": "nollywood",
+    "question": "The term 'Nollywood' is a blend of which two words?",
+    "options": [
+      { "id": "a", "text": "Northern + Hollywood" },
+      { "id": "b", "text": "Nigeria + Hollywood" },
+      { "id": "c", "text": "Native + Hollywood" },
+      { "id": "d", "text": "Naija + Bollywood" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Nollywood' = Nigeria + Hollywood. The term was coined around 2002 in a New York Times article by Norimitsu Onishi. Nigerian filmmakers have mixed feelings about the name but it has stuck globally.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "nolly_015",
+    "categoryId": "nollywood",
+    "question": "Which pioneering Nigerian director made films like 'Saworoide' and 'Thunderbolt'?",
+    "options": [
+      { "id": "a", "text": "Amaka Igwe" },
+      { "id": "b", "text": "Tunde Kelani" },
+      { "id": "c", "text": "Eddie Ugbomah" },
+      { "id": "d", "text": "Ola Balogun" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Tunde Kelani (MainFrame Productions) is one of Nigeria's most acclaimed directors. His films like 'Saworoide' (1999) and 'Thunderbolt: Magun' (2001) are celebrated for their cinematic quality and cultural depth.",
+    "difficulty": "hard",
+    "pointValue": 300
+  },
+  {
+    "id": "nolly_016",
+    "categoryId": "nollywood",
+    "question": "Omotola Jalade-Ekeinde was listed on TIME Magazine's 100 Most Influential People in which year?",
+    "options": [
+      { "id": "a", "text": "2010" },
+      { "id": "b", "text": "2013" },
+      { "id": "c", "text": "2016" },
+      { "id": "d", "text": "2019" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Omotola Jalade-Ekeinde appeared on TIME Magazine's 2013 list of the 100 Most Influential People in the World — one of the highest international recognitions ever received by a Nollywood actress.",
+    "difficulty": "hard",
+    "pointValue": 300
+  },
+  {
+    "id": "nolly_017",
+    "categoryId": "nollywood",
+    "question": "The Netflix Nollywood series 'Blood Sisters' was directed by whom?",
+    "options": [
+      { "id": "a", "text": "Kemi Adetiba" },
+      { "id": "b", "text": "Biyi Bandele and Kenneth Gyang" },
+      { "id": "c", "text": "Genevieve Nnaji" },
+      { "id": "d", "text": "Jade Osiberu" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Blood Sisters' (2022) was co-directed by the late Biyi Bandele and Kenneth Gyang for Netflix. It starred Kate Henshaw, Nancy Isime, and Ini Dima-Okojie, and became one of Netflix's most-watched Nigerian series.",
+    "difficulty": "hard",
+    "pointValue": 300
+  },
+  {
+    "id": "nolly_018",
+    "categoryId": "nollywood",
+    "question": "Veteran actress Joke Silva is married to which legendary Nigerian actor?",
+    "options": [
+      { "id": "a", "text": "Richard Mofe-Damijo" },
+      { "id": "b", "text": "Pete Edochie" },
+      { "id": "c", "text": "Olu Jacobs" },
+      { "id": "d", "text": "Ramsey Nouah" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Joke Silva is married to Olu Jacobs, one of Nollywood's most respected and veteran actors. Together they are considered royalty in the Nigerian film industry, with decades of acclaimed performances between them.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "nolly_019",
+    "categoryId": "nollywood",
+    "question": "Which Nollywood actor is famous for his portrayal of Okonkwo in a screen adaptation of Chinua Achebe's 'Things Fall Apart'?",
+    "options": [
+      { "id": "a", "text": "Nkem Owoh" },
+      { "id": "b", "text": "Pete Edochie" },
+      { "id": "c", "text": "Kanayo O. Kanayo" },
+      { "id": "d", "text": "Sam Loco Efe" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Pete Edochie played Okonkwo in the 1987 NTA TV adaptation of Chinua Achebe's 'Things Fall Apart', a role that defined his career. He is considered one of the greatest actors in Nollywood history.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "nolly_020",
+    "categoryId": "nollywood",
+    "question": "Kanayo O. Kanayo is known in Nollywood memes and roles for frequently playing which type of character?",
+    "options": [
+      { "id": "a", "text": "Romantic lead" },
+      { "id": "b", "text": "Comedic relief character" },
+      { "id": "c", "text": "Ritualist/occult villain" },
+      { "id": "d", "text": "Military general" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Kanayo O. Kanayo became iconic in Nollywood for his countless portrayals of ritualists, occult chiefs, and villains in Nigerian home videos of the 1990s-2000s. He has since become a qualified lawyer in real life.",
+    "difficulty": "easy",
+    "pointValue": 100
+  }
+]

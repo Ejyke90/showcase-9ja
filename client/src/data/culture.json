@@ -1,0 +1,302 @@
+[
+  {
+    "id": "culture_001",
+    "categoryId": "culture",
+    "question": "What is 'Aso-Ebi'?",
+    "options": [
+      { "id": "a", "text": "A type of traditional Yoruba soup" },
+      { "id": "b", "text": "Coordinated fabric worn by family and friends at celebrations" },
+      { "id": "c", "text": "A traditional Igbo marriage ceremony" },
+      { "id": "d", "text": "A Hausa greeting reserved for elders" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Aso-Ebi (Yoruba: 'family cloth') is the tradition of wearing a uniform fabric to show solidarity and belonging at Nigerian celebrations like weddings, funerals, and naming ceremonies.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "culture_002",
+    "categoryId": "culture",
+    "question": "What does the Nigerian slang word 'Japa' mean?",
+    "options": [
+      { "id": "a", "text": "To celebrate wildly" },
+      { "id": "b", "text": "To eat a lot" },
+      { "id": "c", "text": "To flee or emigrate, especially abroad" },
+      { "id": "d", "text": "A type of loud music" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "'Japa' comes from Yoruba meaning 'to flee/escape quickly'. In modern Nigerian slang, it specifically refers to emigrating abroad for better opportunities — a widespread phenomenon among young Nigerians.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "culture_003",
+    "categoryId": "culture",
+    "question": "Which hand is considered disrespectful for giving or receiving in Nigerian culture?",
+    "options": [
+      { "id": "a", "text": "Right hand" },
+      { "id": "b", "text": "Left hand" },
+      { "id": "c", "text": "Either hand is acceptable" },
+      { "id": "d", "text": "Both hands must be used always" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Using the left hand alone to give, receive, or eat is considered disrespectful across most Nigerian cultures. The right hand or both hands are preferred, especially with elders.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "culture_004",
+    "categoryId": "culture",
+    "question": "What is an 'Owambe'?",
+    "options": [
+      { "id": "a", "text": "A type of Yoruba wrestling match" },
+      { "id": "b", "text": "A loud, extravagant Nigerian party or celebration" },
+      { "id": "c", "text": "A traditional Igbo funeral rite" },
+      { "id": "d", "text": "A Hausa praise singer" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "An Owambe is a classic Nigerian party or social gathering characterized by loud music (usually Jùjú or Fuji), lavish food, and guests dressed in matching Aso-Ebi. The word is Yoruba for 'it is there'.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "culture_005",
+    "categoryId": "culture",
+    "question": "What does the Yoruba greeting 'Bawo ni' mean?",
+    "options": [
+      { "id": "a", "text": "Good morning" },
+      { "id": "b", "text": "How are you?" },
+      { "id": "c", "text": "God bless you" },
+      { "id": "d", "text": "Welcome home" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Bawo ni' is a common Yoruba greeting meaning 'How are you?' The typical response is 'Mo wa dada' (I am fine/well).",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "culture_006",
+    "categoryId": "culture",
+    "question": "The 'Durbar' festival is a major celebration in which part of Nigeria?",
+    "options": [
+      { "id": "a", "text": "South-South (Niger Delta)" },
+      { "id": "b", "text": "South-East (Igbo land)" },
+      { "id": "c", "text": "Northern Nigeria (Kano, Katsina)" },
+      { "id": "d", "text": "South-West (Yoruba land)" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "The Durbar festival is a magnificent equestrian display held in Northern Nigerian emirates like Kano and Katsina, typically during Eid celebrations. Horses are lavishly adorned and riders wear traditional attire.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "culture_007",
+    "categoryId": "culture",
+    "question": "What does the Nigerian slang word 'Sapa' mean?",
+    "options": [
+      { "id": "a", "text": "To be very wealthy" },
+      { "id": "b", "text": "To be extremely broke or in financial hardship" },
+      { "id": "c", "text": "A delicious home-cooked meal" },
+      { "id": "d", "text": "A popular dance move" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Sapa' (Nigerian Gen Z slang) refers to being severely broke — a state where your account balance is critically low. 'Sapa don catch me' means financial hardship has hit.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "culture_008",
+    "categoryId": "culture",
+    "question": "What is 'Agbada'?",
+    "options": [
+      { "id": "a", "text": "A traditional Igbo title" },
+      { "id": "b", "text": "A wide-sleeved flowing robe worn by men" },
+      { "id": "c", "text": "A Hausa musical instrument" },
+      { "id": "d", "text": "A type of Nigerian headtie" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Agbada is a wide-sleeved, flowing robe worn across West Africa by men, particularly in formal and ceremonial settings. In Nigeria it's worn by Yoruba, Hausa, and other groups at important occasions.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "culture_009",
+    "categoryId": "culture",
+    "question": "The Osun-Osogbo Sacred Grove was inscribed as a UNESCO World Heritage Site in which year?",
+    "options": [
+      { "id": "a", "text": "1999" },
+      { "id": "b", "text": "2005" },
+      { "id": "c", "text": "2010" },
+      { "id": "d", "text": "2015" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The Osun-Osogbo Sacred Grove in Osun State was inscribed as a UNESCO World Heritage Site in 2005. The annual Osun-Osogbo festival at the grove honours the Yoruba deity Osun.",
+    "difficulty": "hard",
+    "pointValue": 300
+  },
+  {
+    "id": "culture_010",
+    "categoryId": "culture",
+    "question": "What is a 'bride price' in Nigerian tradition?",
+    "options": [
+      { "id": "a", "text": "A fine paid by a bride who cancels a wedding" },
+      { "id": "b", "text": "Gifts given by the groom's family to the bride's family" },
+      { "id": "c", "text": "Money the bride earns before marriage" },
+      { "id": "d", "text": "Tax paid to the village chief for permission to marry" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Bride price (also called bride wealth) is a traditional practice where the groom's family presents gifts, money, and items to the bride's family as appreciation and to formally seal the marriage.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "culture_011",
+    "categoryId": "culture",
+    "question": "The 'Egungun' masquerade is a tradition of which Nigerian ethnic group?",
+    "options": [
+      { "id": "a", "text": "Igbo" },
+      { "id": "b", "text": "Hausa" },
+      { "id": "c", "text": "Yoruba" },
+      { "id": "d", "text": "Ijaw" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Egungun is a Yoruba ancestral masquerade tradition where elaborately costumed masquerades represent the spirits of deceased ancestors who return to bless and counsel the living.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "culture_012",
+    "categoryId": "culture",
+    "question": "What is the meaning of the name 'Nigeria'?",
+    "options": [
+      { "id": "a", "text": "Land of many rivers" },
+      { "id": "b", "text": "Named after the River Niger" },
+      { "id": "c", "text": "Great nation of the South" },
+      { "id": "d", "text": "Place of iron" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Nigeria is named after the River Niger. The name was popularised by Flora Shaw (later Lady Lugard) in an 1897 article in The Times, and adopted officially by the British colonial administration.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "culture_013",
+    "categoryId": "culture",
+    "question": "In what year was Nigeria's currency the Naira introduced?",
+    "options": [
+      { "id": "a", "text": "1960" },
+      { "id": "b", "text": "1967" },
+      { "id": "c", "text": "1973" },
+      { "id": "d", "text": "1979" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "The Naira replaced the Nigerian Pound on January 1, 1973, at a rate of 2 Naira to 1 Pound. The name 'Naira' comes from the word 'Nigeria'.",
+    "difficulty": "hard",
+    "pointValue": 300
+  },
+  {
+    "id": "culture_014",
+    "categoryId": "culture",
+    "question": "The 'Sharo' festival, which tests endurance and courage, is associated with which group?",
+    "options": [
+      { "id": "a", "text": "Tiv people" },
+      { "id": "b", "text": "Fulani/Fula people" },
+      { "id": "c", "text": "Nupe people" },
+      { "id": "d", "text": "Kanuri people" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The Sharo (also Shadi) is a Fulani initiation festival where young men publicly endure flogging and physical pain without flinching, demonstrating bravery and readiness for adulthood.",
+    "difficulty": "hard",
+    "pointValue": 300
+  },
+  {
+    "id": "culture_015",
+    "categoryId": "culture",
+    "question": "What does 'Oga' mean in Nigerian Pidgin/slang?",
+    "options": [
+      { "id": "a", "text": "Food vendor" },
+      { "id": "b", "text": "Boss, superior, or person in charge" },
+      { "id": "c", "text": "Troublemaker" },
+      { "id": "d", "text": "A type of cloth" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Oga' means boss or person in authority. 'Oga at the top' became famous from a viral 2013 Nigerian TV interview and is now a cultural meme for referring to those at the highest level of power.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "culture_016",
+    "categoryId": "culture",
+    "question": "What is the Igbo term 'Ichi' referring to?",
+    "options": [
+      { "id": "a", "text": "A traditional Igbo dance" },
+      { "id": "b", "text": "A chief's walking stick" },
+      { "id": "c", "text": "Ritual facial scarification marks worn by Igbo men" },
+      { "id": "d", "text": "A type of Igbo soup" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Ichi are distinctive scarification patterns carved on the forehead and temples of titled Igbo men. Historically, only freeborn men of high status could wear Ichi marks.",
+    "difficulty": "hard",
+    "pointValue": 300
+  },
+  {
+    "id": "culture_017",
+    "categoryId": "culture",
+    "question": "What is the significance of the colour green in the Nigerian flag?",
+    "options": [
+      { "id": "a", "text": "Represents the Niger Delta oil wealth" },
+      { "id": "b", "text": "Represents Nigeria's forests and agricultural wealth" },
+      { "id": "c", "text": "Represents the Islamic faith" },
+      { "id": "d", "text": "Was chosen randomly by the British" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The green in Nigeria's flag represents the country's forests and agricultural wealth. The white represents peace and unity. The flag was designed by Michael Taiwo Akinkunmi in 1959.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "culture_018",
+    "categoryId": "culture",
+    "question": "Which Nigerian city is informally called the 'Centre of Excellence'?",
+    "options": [
+      { "id": "a", "text": "Abuja" },
+      { "id": "b", "text": "Kano" },
+      { "id": "c", "text": "Lagos" },
+      { "id": "d", "text": "Ibadan" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Lagos bears the slogan 'Centre of Excellence' and 'Eko oni baje' (Lagos shall not spoil). It is Nigeria's commercial capital and the most populous city on the African continent.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "culture_019",
+    "categoryId": "culture",
+    "question": "How many ethnic groups are estimated to exist in Nigeria?",
+    "options": [
+      { "id": "a", "text": "Around 50" },
+      { "id": "b", "text": "Around 100" },
+      { "id": "c", "text": "Over 250" },
+      { "id": "d", "text": "Exactly 36" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Nigeria is home to over 250 ethnic groups, making it one of the world's most ethnically diverse nations. The three largest groups are Yoruba, Igbo (Ibo), and Hausa-Fulani.",
+    "difficulty": "medium",
+    "pointValue": 200
+  },
+  {
+    "id": "culture_020",
+    "categoryId": "culture",
+    "question": "What does 'Naira' and 'Kobo' symbolise in Nigerian currency nomenclature?",
+    "options": [
+      { "id": "a", "text": "Naira from 'Nigeria', Kobo from a Hausa word for small" },
+      { "id": "b", "text": "Both names are derived from Yoruba" },
+      { "id": "c", "text": "Named after founding fathers" },
+      { "id": "d", "text": "Borrowed from British monetary terms" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'Naira' is derived from 'Nigeria'. 'Kobo' comes from the Hausa/Yoruba word for a small copper coin. 100 Kobo = 1 Naira. The currency was introduced to replace the pound in 1973.",
+    "difficulty": "hard",
+    "pointValue": 300
+  }
+]
