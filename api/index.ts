@@ -1,6 +1,6 @@
 import 'dotenv/config';
-import { createApp } from '../src/app';
-import { initDb } from '../src/db';
+import { createApp } from '../src/app.js';
+import { initDb } from '../src/db.js';
 
 const app = createApp();
 
