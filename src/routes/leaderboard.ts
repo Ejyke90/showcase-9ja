@@ -4,6 +4,10 @@ import { sql } from '../db.js';
 const router = Router();
 
 router.get('/', async (_req, res) => {
+  if (!sql) {
+    res.json({ leaderboard: [] });
+    return;
+  }
   try {
     const rows = await sql`
       SELECT username, score, category, timestamp
@@ -19,6 +23,10 @@ router.get('/', async (_req, res) => {
 });
 
 router.post('/', async (req, res) => {
+  if (!sql) {
+    res.status(503).json({ error: 'Leaderboard unavailable: database not configured' });
+    return;
+  }
   const { username, score, category } = req.body as {
     username: string;
     score: number;

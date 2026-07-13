@@ -1,12 +1,17 @@
-import { neon } from '@neondatabase/serverless';
+import { neon, NeonQueryFunction } from '@neondatabase/serverless';
 
-if (!process.env.DATABASE_URL) {
-  throw new Error('DATABASE_URL environment variable is not set');
+let sql: NeonQueryFunction<false, false> | null = null;
+
+if (process.env.DATABASE_URL) {
+  sql = neon(process.env.DATABASE_URL);
+} else {
+  console.warn('[db] DATABASE_URL not set — leaderboard persistence disabled');
 }
 
-export const sql = neon(process.env.DATABASE_URL);
+export { sql };
 
 export async function initDb(): Promise<void> {
+  if (!sql) return;
   await sql`
     CREATE TABLE IF NOT EXISTS leaderboard (
       id         SERIAL PRIMARY KEY,
