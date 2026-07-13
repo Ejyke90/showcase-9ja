@@ -31,7 +31,7 @@ v2/                        ← root = the server
 │   │   └── pages/         ← Home, Categories, QuizPlay, MultiplayerHub, Leaderboard, Profile
 │   ├── public/
 │   ├── package.json
-│   ├── vite.config.ts     ← build outDir: ../dist/client; dev proxy → :3001
+│   ├── vite.config.ts     ← build outDir: dist (client/dist); dev proxy → :3001
 │   └── tsconfig.json
 ├── package.json           ← server deps + workspace scripts
 ├── tsconfig.json          ← backend TypeScript config
@@ -113,7 +113,7 @@ Server → Client:
 
 ## Deployment Strategy
 
-`npm run build` in client outputs to `../dist/client/`. Express serves this as static files in production. **One Docker image, one port, one deployment.**
+`npm run build` in client outputs to `client/dist/`. Express serves this as static files in production. **One Docker image, one port, one deployment.**
 
 Requires `DATABASE_URI` (Neon Postgres connection string) in the environment/`.env` at boot — the server exits if it can't connect. Pass it to the container via `--env-file .env` or `-e DATABASE_URI=...`.
 
@@ -124,7 +124,7 @@ WORKDIR /app/client
 COPY client/package*.json ./
 RUN npm ci
 COPY client/ ./
-RUN npm run build           # → /app/dist/client/
+RUN npm run build           # → /app/client/dist/
 
 FROM node:20-alpine AS server-build
 WORKDIR /app
@@ -137,7 +137,7 @@ RUN npm run build           # → /app/dist/
 FROM node:20-alpine
 WORKDIR /app
 COPY --from=server-build /app/dist ./dist
-COPY --from=client-build /app/dist/client ./dist/client
+COPY --from=client-build /app/client/dist ./client/dist
 COPY package*.json ./
 COPY data/ ./data/
 RUN npm ci --omit=dev

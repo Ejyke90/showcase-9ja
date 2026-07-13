@@ -22,7 +22,7 @@ export function createApp() {
   });
 
   // Serve built client assets when dist/client exists (production build)
-  const clientPath = resolve(__dirname, 'client');
+  const clientPath = resolve(__dirname, '..', 'client', 'dist');
   if (existsSync(clientPath)) {
     app.use(express.static(clientPath));
     app.get('*', (_req, res) => {

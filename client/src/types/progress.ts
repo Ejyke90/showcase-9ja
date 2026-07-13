@@ -122,6 +122,9 @@ export const DEFAULT_PROGRESS: UserProgress = {
     sports: { categoryId: 'sports', completed: false, highScore: 0, totalPlays: 0, lastPlayedAt: null },
     geography: { categoryId: 'geography', completed: false, highScore: 0, totalPlays: 0, lastPlayedAt: null },
     nollywood: { categoryId: 'nollywood', completed: false, highScore: 0, totalPlays: 0, lastPlayedAt: null },
+    history: { categoryId: 'history', completed: false, highScore: 0, totalPlays: 0, lastPlayedAt: null },
+    fashion: { categoryId: 'fashion', completed: false, highScore: 0, totalPlays: 0, lastPlayedAt: null },
+    linguistics: { categoryId: 'linguistics', completed: false, highScore: 0, totalPlays: 0, lastPlayedAt: null },
   },
   badges: [],
 };

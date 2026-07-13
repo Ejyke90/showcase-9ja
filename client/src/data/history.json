@@ -1,0 +1,302 @@
+[
+  {
+    "id": "history_001",
+    "categoryId": "history",
+    "question": "On what date did Nigeria gain independence from Britain?",
+    "options": [
+      { "id": "a", "text": "January 1, 1960" },
+      { "id": "b", "text": "October 1, 1960" },
+      { "id": "c", "text": "October 1, 1963" },
+      { "id": "d", "text": "March 15, 1958" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Nigeria gained independence from British colonial rule on October 1, 1960. This date is celebrated annually as Nigerian Independence Day.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "history_002",
+    "categoryId": "history",
+    "question": "Who is the current president of Nigeria (as of 2023–present)?",
+    "options": [
+      { "id": "a", "text": "Muhammadu Buhari" },
+      { "id": "b", "text": "Goodluck Jonathan" },
+      { "id": "c", "text": "Bola Ahmed Tinubu" },
+      { "id": "d", "text": "Atiku Abubakar" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Bola Ahmed Tinubu became Nigeria's 16th president on May 29, 2023, succeeding Muhammadu Buhari. He is a former Governor of Lagos State.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "history_003",
+    "categoryId": "history",
+    "question": "In which month and year did Nigeria first proclaim itself a Federal Republic?",
+    "options": [
+      { "id": "a", "text": "October 1960" },
+      { "id": "b", "text": "January 1966" },
+      { "id": "c", "text": "October 1963" },
+      { "id": "d", "text": "July 1970" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "On October 1, 1963, Nigeria became a Federal Republic, replacing the Queen of England as head of state with President Nnamdi Azikiwe — three years after independence.",
+    "difficulty": "medium",
+    "pointValue": 150
+  },
+  {
+    "id": "history_004",
+    "categoryId": "history",
+    "question": "Where does the President of Nigeria officially reside and work?",
+    "options": [
+      { "id": "a", "text": "Lagos State House" },
+      { "id": "b", "text": "Aso Rock Villa, Abuja" },
+      { "id": "c", "text": "Government House, Kaduna" },
+      { "id": "d", "text": "Dodan Barracks, Lagos" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The Aso Rock Villa in Abuja is Nigeria's seat of government and the official residence of the President. 'Aso' refers to the massive granite rock formation behind the complex.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "history_005",
+    "categoryId": "history",
+    "question": "Who was Nigeria's first president when it became a republic in 1963?",
+    "options": [
+      { "id": "a", "text": "Obafemi Awolowo" },
+      { "id": "b", "text": "Tafawa Balewa" },
+      { "id": "c", "text": "Yakubu Gowon" },
+      { "id": "d", "text": "Nnamdi Azikiwe" }
+    ],
+    "correctOptionId": "d",
+    "explanation": "Dr. Nnamdi Azikiwe ('Zik of Africa') became Nigeria's first President when the country became a Federal Republic on October 1, 1963. He was a powerful Pan-Africanist leader.",
+    "difficulty": "medium",
+    "pointValue": 150
+  },
+  {
+    "id": "history_006",
+    "categoryId": "history",
+    "question": "The Nigerian Civil War (Biafran War) lasted from 1967 to which year?",
+    "options": [
+      { "id": "a", "text": "1968" },
+      { "id": "b", "text": "1970" },
+      { "id": "c", "text": "1972" },
+      { "id": "d", "text": "1975" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The Nigerian Civil War (1967–1970) ended on January 15, 1970 with the surrender of Biafran forces. The war resulted in approximately 1–3 million deaths, many from famine.",
+    "difficulty": "medium",
+    "pointValue": 150
+  },
+  {
+    "id": "history_007",
+    "categoryId": "history",
+    "question": "Nigeria was amalgamated by the British in which year?",
+    "options": [
+      { "id": "a", "text": "1900" },
+      { "id": "b", "text": "1906" },
+      { "id": "c", "text": "1914" },
+      { "id": "d", "text": "1920" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "In 1914, Lord Frederick Lugard merged the Northern and Southern Protectorates of Nigeria into one entity under British rule. His wife, Flora Shaw, coined the name 'Nigeria' in 1897.",
+    "difficulty": "hard",
+    "pointValue": 200
+  },
+  {
+    "id": "history_008",
+    "categoryId": "history",
+    "question": "Which Nigerian activist and Nobel laureate was imprisoned by Sani Abacha's regime in the 1990s?",
+    "options": [
+      { "id": "a", "text": "Chinua Achebe" },
+      { "id": "b", "text": "Wole Soyinka" },
+      { "id": "c", "text": "Ken Saro-Wiwa" },
+      { "id": "d", "text": "Fela Kuti" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Nobel Prize-winning playwright Wole Soyinka fled into exile and was charged with treason under Sani Abacha's regime in 1994. Ken Saro-Wiwa was also executed by the regime in 1995.",
+    "difficulty": "hard",
+    "pointValue": 200
+  },
+  {
+    "id": "history_009",
+    "categoryId": "history",
+    "question": "Abuja replaced which city as Nigeria's capital in 1991?",
+    "options": [
+      { "id": "a", "text": "Kano" },
+      { "id": "b", "text": "Ibadan" },
+      { "id": "c", "text": "Enugu" },
+      { "id": "d", "text": "Lagos" }
+    ],
+    "correctOptionId": "d",
+    "explanation": "Lagos served as Nigeria's capital from independence in 1960 until December 12, 1991, when the federal capital was officially moved to the newly built central city of Abuja.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "history_010",
+    "categoryId": "history",
+    "question": "The 'Aba Women's Riot' of 1929 was a protest by Igbo women against which colonial policy?",
+    "options": [
+      { "id": "a", "text": "Forced labour on railways" },
+      { "id": "b", "text": "Taxation of women and their assets" },
+      { "id": "c", "text": "Banning of palm oil trade" },
+      { "id": "d", "text": "Exclusion from church schools" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The Aba Women's Riots (also called Ogu Umunwanyi — 'Women's War') erupted when rumours spread that the British planned to tax women and count their property. Tens of thousands of Igbo women protested, and 55 were killed by colonial forces.",
+    "difficulty": "hard",
+    "pointValue": 200
+  },
+  {
+    "id": "history_011",
+    "categoryId": "history",
+    "question": "Which explorer is credited as the first European to navigate the Niger River to its delta in 1830?",
+    "options": [
+      { "id": "a", "text": "Mungo Park" },
+      { "id": "b", "text": "Richard Lander" },
+      { "id": "c", "text": "David Livingstone" },
+      { "id": "d", "text": "John Hanning Speke" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Richard Lander and his brother John became the first Europeans to trace the Niger River from Bussa to its delta in 1830, solving a geographical mystery that had puzzled explorers for decades.",
+    "difficulty": "hard",
+    "pointValue": 200
+  },
+  {
+    "id": "history_012",
+    "categoryId": "history",
+    "question": "How many states does Nigeria currently have?",
+    "options": [
+      { "id": "a", "text": "30" },
+      { "id": "b", "text": "32" },
+      { "id": "c", "text": "36" },
+      { "id": "d", "text": "42" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Nigeria has 36 states plus the Federal Capital Territory (FCT) Abuja. The country started with 3 regions at independence and progressively created more states, reaching 36 in 1996.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "history_013",
+    "categoryId": "history",
+    "question": "The Sokoto Caliphate, one of the largest empires in 19th-century Africa, was founded by which leader?",
+    "options": [
+      { "id": "a", "text": "Dan Fodio Usman" },
+      { "id": "b", "text": "Muhammad Bello" },
+      { "id": "c", "text": "Usman dan Fodio" },
+      { "id": "d", "text": "Alhaji Ahmadu" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Usman dan Fodio launched a jihad in 1804 and established the Sokoto Caliphate, which at its peak controlled much of modern northern Nigeria and southern Niger. His intellectual and religious legacy remains deeply influential.",
+    "difficulty": "hard",
+    "pointValue": 200
+  },
+  {
+    "id": "history_014",
+    "categoryId": "history",
+    "question": "Nigeria returned to civilian democratic rule after years of military governance in which year?",
+    "options": [
+      { "id": "a", "text": "1993" },
+      { "id": "b", "text": "1996" },
+      { "id": "c", "text": "1999" },
+      { "id": "d", "text": "2003" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Nigeria's Fourth Republic began on May 29, 1999 when Olusegun Obasanjo was inaugurated as president, ending 16 years of almost uninterrupted military rule that followed the annulment of the 1993 election.",
+    "difficulty": "medium",
+    "pointValue": 150
+  },
+  {
+    "id": "history_015",
+    "categoryId": "history",
+    "question": "What was the name of the pre-colonial Yoruba city-state known for its advanced bronze and terracotta art?",
+    "options": [
+      { "id": "a", "text": "Ile-Ife" },
+      { "id": "b", "text": "Old Oyo" },
+      { "id": "c", "text": "Benin Kingdom" },
+      { "id": "d", "text": "Ijebu" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Ile-Ife (modern Ife, Osun State) is considered the spiritual homeland of the Yoruba people and is renowned for its naturalistic bronze, iron, and terracotta sculptures dating to the 12th–14th centuries.",
+    "difficulty": "medium",
+    "pointValue": 150
+  },
+  {
+    "id": "history_016",
+    "categoryId": "history",
+    "question": "The Benin Bronzes, looted in 1897, were taken by forces from which country?",
+    "options": [
+      { "id": "a", "text": "France" },
+      { "id": "b", "text": "Germany" },
+      { "id": "c", "text": "Portugal" },
+      { "id": "d", "text": "Britain" }
+    ],
+    "correctOptionId": "d",
+    "explanation": "British forces sacked Benin City in 1897 during a punitive expedition against the Oba, looting thousands of bronze plaques and sculptures. Campaigns for their repatriation to Nigeria continue to this day.",
+    "difficulty": "medium",
+    "pointValue": 150
+  },
+  {
+    "id": "history_017",
+    "categoryId": "history",
+    "question": "Which year was oil first discovered commercially in Nigeria?",
+    "options": [
+      { "id": "a", "text": "1948" },
+      { "id": "b", "text": "1956" },
+      { "id": "c", "text": "1962" },
+      { "id": "d", "text": "1970" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Shell-BP struck commercial quantities of crude oil at Oloibiri in the Niger Delta in 1956. Nigeria began exporting oil in 1958 and the oil sector has dominated the economy ever since.",
+    "difficulty": "medium",
+    "pointValue": 150
+  },
+  {
+    "id": "history_018",
+    "categoryId": "history",
+    "question": "The 'June 12' crisis in Nigeria refers to the annulment of the presidential election won by which candidate?",
+    "options": [
+      { "id": "a", "text": "Moshood Abiola" },
+      { "id": "b", "text": "Olusegun Obasanjo" },
+      { "id": "c", "text": "Ibrahim Babangida" },
+      { "id": "d", "text": "Emeka Ojukwu" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "On June 12, 1993, Moshood Abiola won what was widely considered Nigeria's freest election, but the results were annulled by military ruler Ibrahim Babangida. June 12 is now Nigeria's Democracy Day.",
+    "difficulty": "medium",
+    "pointValue": 150
+  },
+  {
+    "id": "history_019",
+    "categoryId": "history",
+    "question": "Nigeria is the most populous country in Africa. Approximately how many people live there?",
+    "options": [
+      { "id": "a", "text": "100 million" },
+      { "id": "b", "text": "150 million" },
+      { "id": "c", "text": "220 million" },
+      { "id": "d", "text": "300 million" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Nigeria's population is estimated at over 220 million (2023), making it the most populous nation in Africa and the 6th most populous in the world. By 2050 it is projected to be among the top 3 globally.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "history_020",
+    "categoryId": "history",
+    "question": "Which colonial governor coined the administrative entity 'Nigeria' by merging the Northern and Southern Protectorates in 1914?",
+    "options": [
+      { "id": "a", "text": "Lord Lugard" },
+      { "id": "b", "text": "Lord Curzon" },
+      { "id": "c", "text": "Lord Milner" },
+      { "id": "d", "text": "Lord Kitchener" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Lord Frederick Lugard carried out the 1914 amalgamation of the Northern and Southern Protectorates of Nigeria. His wife, journalist Flora Shaw, had earlier coined the name 'Nigeria' in an 1897 Times article.",
+    "difficulty": "hard",
+    "pointValue": 200
+  }
+]

@@ -14,6 +14,9 @@ import cultureQ from '../data/culture.json';
 import sportsQ from '../data/sports.json';
 import geoQ from '../data/geography.json';
 import nollyQ from '../data/nollywood.json';
+import historyQ from '../data/history.json';
+import fashionQ from '../data/fashion.json';
+import linguisticsQ from '../data/linguistics.json';
 
 const QUESTION_BANK: Record<CategoryId, Question[]> = {
   food: foodQ as Question[],
@@ -22,6 +25,9 @@ const QUESTION_BANK: Record<CategoryId, Question[]> = {
   sports: sportsQ as Question[],
   geography: geoQ as Question[],
   nollywood: nollyQ as Question[],
+  history: historyQ as Question[],
+  fashion: fashionQ as Question[],
+  linguistics: linguisticsQ as Question[],
 };
 
 function shuffle<T>(arr: T[]): T[] {
