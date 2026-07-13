@@ -1,29 +1,19 @@
 {
   "version": 2,
+  "buildCommand": "cd client && npm install && npm run build",
   "builds": [
     {
       "src": "api/index.ts",
-      "use": "@vercel/node"
-    },
-    {
-      "src": "client/package.json",
-      "use": "@vercel/static-build",
+      "use": "@vercel/node",
       "config": {
-        "distDir": "dist"
+        "includeFiles": ["client/dist/**"]
       }
     }
   ],
   "routes": [
     {
-      "src": "/api/(.*)",
-      "dest": "/api/index.ts"
-    },
-    {
-      "handle": "filesystem"
-    },
-    {
       "src": "/(.*)",
-      "dest": "/index.html"
+      "dest": "/api/index.ts"
     }
   ]
 }

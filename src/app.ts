@@ -21,9 +21,13 @@ export function createApp() {
     res.json({ ok: true, timestamp: new Date().toISOString() });
   });
 
-  // Serve built client assets when dist/client exists (production build)
-  const clientPath = resolve(__dirname, '..', 'client', 'dist');
-  if (existsSync(clientPath)) {
+  // Serve built client assets (production build)
+  const clientPaths = [
+    resolve(__dirname, '..', 'client', 'dist'),   // local: dist/ → ../client/dist
+    resolve(process.cwd(), 'client', 'dist'),      // Vercel: /var/task/client/dist
+  ];
+  const clientPath = clientPaths.find(p => existsSync(p));
+  if (clientPath) {
     app.use(express.static(clientPath));
     app.get('*', (_req, res) => {
       res.sendFile(join(clientPath, 'index.html'));
