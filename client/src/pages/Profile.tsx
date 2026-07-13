@@ -4,6 +4,7 @@ import { Edit3, Flame, Star, Target, Moon, Sun } from 'lucide-react';
 import { useProgress } from '../hooks/useProgress';
 import { BADGES } from '../types/progress';
 import { useDark } from '../App';
+import logoImg from '../assets/logo2.png';
 
 export function Profile() {
   const { progress, setUsername } = useProgress();
@@ -23,6 +24,11 @@ export function Profile() {
   return (
     <div className="flex flex-col min-h-full pb-24">
       <div className="bg-gradient-to-br from-nigerian-green to-nigerian-green-dark pt-10 pb-8 px-4 relative">
+        <img
+          src={logoImg}
+          alt="Showcase Nigeria logo"
+          className="absolute top-4 left-4 w-9 h-9 object-contain drop-shadow"
+        />
         <button
           onClick={toggleDark}
           className="absolute top-4 right-4 p-2 rounded-xl bg-white/20 text-white"
@@ -46,6 +52,7 @@ export function Profile() {
                 onKeyDown={e => e.key === 'Enter' && saveName()}
                 autoFocus
                 maxLength={20}
+                aria-label="Your name"
                 placeholder="Enter name"
               />
               <button onClick={saveName} className="text-white/80 text-sm font-bold">Save</button>
@@ -55,7 +62,7 @@ export function Profile() {
               <h1 className="text-white font-black text-xl">
                 {progress.username || 'Anonymous Naija'}
               </h1>
-              <button onClick={() => setEditingName(true)} className="text-white/60">
+              <button onClick={() => setEditingName(true)} aria-label="Edit username" className="text-white/60">
                 <Edit3 size={14} />
               </button>
             </div>

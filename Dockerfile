@@ -6,7 +6,7 @@ COPY client/package*.json ./
 RUN npm ci
 
 COPY client/ ./
-# Build outputs to ../dist/client (resolved as /app/dist/client)
+# Build outputs to ./dist (resolved as /app/client/dist)
 RUN npm run build
 
 # ─── Stage 2: Build Node server ───────────────────────────────────────────────
@@ -28,8 +28,8 @@ WORKDIR /app
 # Server compiled JS
 COPY --from=server-build /app/dist ./dist
 
-# Client static files built into /app/dist/client by Vite
-COPY --from=client-build /app/dist/client ./dist/client
+# Client static files built into /app/client/dist by Vite
+COPY --from=client-build /app/client/dist ./client/dist
 
 # Question data
 COPY data/ ./data/

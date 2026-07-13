@@ -7,6 +7,7 @@ import { CATEGORIES } from '../types/quiz';
 
 import welcomeImg from '../assets/welcome.jpg';
 import naijaFlagImg from '../assets/Naija_flag.jpg';
+import logoImg from '../assets/logo2.png';
 
 const HERO_IMAGES = [
   { url: welcomeImg, caption: 'Welcome to Showcase Nigeria 🇳🇬' },
@@ -62,6 +63,7 @@ export function Home() {
               <button
                 key={i}
                 onClick={() => setHeroIndex(i)}
+                aria-label={`Show slide ${i + 1}`}
                 className={`h-1 rounded-full transition-all duration-300 ${i === heroIndex ? 'w-6 bg-white' : 'w-1.5 bg-white/40'
                   }`}
               />
@@ -72,7 +74,7 @@ export function Home() {
         {/* App title */}
         <div className="absolute top-4 left-4">
           <div className="flex items-center gap-2 bg-black/30 backdrop-blur-sm rounded-xl px-3 py-1.5">
-            <span className="text-xl">🦅</span>
+            <img src={logoImg} alt="Showcase Nigeria logo" className="w-6 h-6 object-contain" />
             <span className="text-white font-black text-sm tracking-wide">SHOWCASE NIGERIA</span>
           </div>
         </div>
@@ -83,10 +85,10 @@ export function Home() {
         <div className="flex items-start justify-between">
           <div>
             <h1 className="text-xl font-black text-gray-900 dark:text-white">
-              {progress.username ? `Howdy, ${progress.username}! 👋` : 'Welcome, Naija! 🇳🇬'}
+              {progress.username ? `Howdy, ${progress.username}! 👋` : 'Welcome, User!'}
             </h1>
             <p className="text-gray-400 dark:text-gray-500 text-sm mt-0.5">
-              How much you know about Naija?
+              How much you know about Nigeria?
             </p>
           </div>
           {progress.currentStreak >= 2 && (

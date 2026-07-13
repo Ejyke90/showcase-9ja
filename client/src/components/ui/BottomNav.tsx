@@ -14,8 +14,8 @@ export function BottomNav() {
   const { state, dispatch } = useGame();
 
   return (
-    <nav className="fixed bottom-0 left-0 right-0 z-50 bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800 safe-bottom">
-      <div className="max-w-md mx-auto flex">
+    <nav className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-md z-50 bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800 safe-bottom">
+      <div className="flex">
         {TABS.map(tab => {
           const active = state.activeTab === tab.id;
           const Icon = tab.icon;

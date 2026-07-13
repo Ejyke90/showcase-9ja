@@ -114,6 +114,7 @@ export function QuizPlay() {
           </div>
           <button
             onClick={handleHome}
+            aria-label="Exit quiz"
             className="p-1.5 rounded-xl bg-white/20 text-white"
           >
             <X size={16} />

@@ -103,7 +103,7 @@ export function Categories() {
                     <p className="text-xs text-gray-400 dark:text-gray-500">{selectedCat.description}</p>
                   </div>
                 </div>
-                <button onClick={() => setSelected(null)} className="p-2 rounded-xl text-gray-400">
+                <button onClick={() => setSelected(null)} aria-label="Close" className="p-2 rounded-xl text-gray-400">
                   <X size={18} />
                 </button>
               </div>

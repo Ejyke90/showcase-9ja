@@ -22,6 +22,8 @@ export function useDarkMode() {
     } else {
       root.classList.remove('dark');
     }
+    document.querySelector('meta[name="theme-color"]')
+      ?.setAttribute('content', theme === 'dark' ? '#030712' : '#008751');
     try { localStorage.setItem(STORAGE_KEY, theme); } catch {}
   }, [theme]);
 

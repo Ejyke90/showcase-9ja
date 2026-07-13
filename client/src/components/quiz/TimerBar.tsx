@@ -15,7 +15,7 @@ export function TimerBar({ deadline, totalMs = 30_000, onExpire }: TimerBarProps
 
   return (
     <div className="flex items-center gap-3 px-4 py-2">
-      <div className="flex-1 h-2 bg-gray-200 rounded-full overflow-hidden">
+      <div className="flex-1 h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
         <motion.div
           className={`h-full rounded-full timer-bar ${
             isUrgent ? 'bg-red-500' : 'bg-nigerian-green'
@@ -27,7 +27,7 @@ export function TimerBar({ deadline, totalMs = 30_000, onExpire }: TimerBarProps
       </div>
       <span
         className={`text-sm font-bold w-8 text-right tabular-nums ${
-          isUrgent ? 'text-red-500' : 'text-gray-600'
+          isUrgent ? 'text-red-500' : 'text-gray-600 dark:text-gray-400'
         }`}
       >
         {secs}s

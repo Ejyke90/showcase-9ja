@@ -33,7 +33,7 @@ export function Leaderboard() {
 
   return (
     <div className="flex flex-col min-h-full pb-24">
-      <div className="bg-gradient-to-br from-festive-gold to-amber-500 pt-10 pb-6 px-4">
+      <div className="bg-gradient-to-br from-nigerian-green to-green-700 pt-10 pb-6 px-4 rounded-b-2xl">
         <h1 className="text-white font-black text-xl">Leaderboard</h1>
         <p className="text-white/70 text-xs mt-1">Your scores & global rankings</p>
       </div>

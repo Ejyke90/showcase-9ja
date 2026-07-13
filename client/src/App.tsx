@@ -21,7 +21,7 @@ function AppContent() {
   const showQuiz = !!session;
 
   return (
-    <div className="max-w-md mx-auto min-h-screen flex flex-col bg-gray-50 dark:bg-gray-950 relative">
+    <div className="w-full max-w-md mx-auto min-h-screen flex flex-col bg-gray-50 dark:bg-gray-950 relative">
       <main className="flex-1 overflow-y-auto">
         <AnimatePresence mode="wait">
           {showQuiz ? (

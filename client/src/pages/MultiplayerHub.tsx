@@ -64,10 +64,10 @@ export function MultiplayerHub() {
 
   return (
     <div className="flex flex-col min-h-full pb-24">
-      <div className="bg-gradient-to-br from-purple-600 to-indigo-700 pt-10 pb-6 px-4">
+      <div className="bg-gradient-to-br from-nigerian-green to-green-700 pt-10 pb-6 px-4 rounded-b-2xl">
         <div className="flex items-center gap-2">
           {view !== 'menu' && (
-            <button onClick={() => { handleLeave(); setView('menu'); }} className="p-1.5 bg-white/20 rounded-xl text-white mr-1">
+            <button onClick={() => { handleLeave(); setView('menu'); }} aria-label="Back" className="p-1.5 bg-white/20 rounded-xl text-white mr-1">
               <ArrowLeft size={16} />
             </button>
           )}
@@ -85,10 +85,10 @@ export function MultiplayerHub() {
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
-            className="mx-4 mt-3 bg-red-50 border border-red-200 rounded-2xl p-3 flex items-center justify-between"
+            className="mx-4 mt-3 bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800/50 rounded-2xl p-3 flex items-center justify-between"
           >
-            <p className="text-red-700 text-sm font-medium">{state.error}</p>
-            <button onClick={clearError}><X size={14} className="text-red-400" /></button>
+            <p className="text-red-700 dark:text-red-400 text-sm font-medium">{state.error}</p>
+            <button onClick={clearError} aria-label="Dismiss error"><X size={14} className="text-red-400" /></button>
           </motion.div>
         )}
       </AnimatePresence>
@@ -98,21 +98,21 @@ export function MultiplayerHub() {
         {view === 'menu' && (
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="flex flex-col gap-4 pt-4">
             <div className="bg-white dark:bg-gray-800 rounded-2xl p-5 border border-gray-100 dark:border-gray-700 shadow-sm text-center">
-              <Users size={40} className="text-purple-500 mx-auto mb-2" />
+              <Users size={40} className="text-green-500 mx-auto mb-2" />
               <h2 className="font-black text-gray-900 dark:text-white text-lg">Play Together!</h2>
               <p className="text-gray-400 dark:text-gray-500 text-sm mt-1">Create a room or join one with a code</p>
             </div>
             <motion.button
               whileTap={{ scale: 0.97 }}
               onClick={() => setView('create')}
-              className="w-full bg-purple-600 text-white font-bold py-4 rounded-2xl flex items-center justify-center gap-2"
+              className="w-full bg-green-600 text-white font-bold py-4 rounded-2xl flex items-center justify-center gap-2"
             >
               <Plus size={20} /> Create Room
             </motion.button>
             <motion.button
               whileTap={{ scale: 0.97 }}
               onClick={() => setView('join')}
-              className="w-full bg-white dark:bg-gray-800 text-purple-600 dark:text-purple-400 border-2 border-purple-200 dark:border-purple-800 font-bold py-4 rounded-2xl flex items-center justify-center gap-2"
+              className="w-full bg-white dark:bg-gray-800 text-green-600 dark:text-green-400 border-2 border-green-200 dark:border-green-800 font-bold py-4 rounded-2xl flex items-center justify-center gap-2"
             >
               <LogIn size={20} /> Join Room
             </motion.button>
@@ -124,24 +124,24 @@ export function MultiplayerHub() {
           <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} className="flex flex-col gap-4 pt-2">
             <h2 className="font-bold text-gray-800 dark:text-gray-200">Create a Room</h2>
             <input
-              className="w-full bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-600 rounded-2xl px-4 py-3 text-gray-900 dark:text-white font-medium focus:outline-none focus:border-purple-400 dark:placeholder-gray-500"
+              className="w-full bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-600 rounded-2xl px-4 py-3 text-gray-900 dark:text-white font-medium focus:outline-none focus:border-green-400 dark:placeholder-gray-500"
               placeholder="Your username"
+              aria-label="Your username"
               value={username}
               onChange={e => setUsername(e.target.value)}
               maxLength={20}
             />
             <div className="flex flex-col gap-2">
-              <p className="text-sm font-semibold text-gray-700">Choose Category</p>
+              <p className="text-sm font-semibold text-gray-700 dark:text-gray-300">Choose Category</p>
               <div className="grid grid-cols-2 gap-2">
                 {CATEGORIES.map(cat => (
                   <button
                     key={cat.id}
                     onClick={() => setSelectedCategory(cat.id)}
-                    className={`p-3 rounded-xl border-2 text-left flex items-center gap-2 transition-colors ${
-                      selectedCategory === cat.id
-                        ? 'border-purple-500 bg-purple-50 dark:bg-purple-900/20'
-                        : 'border-gray-100 dark:border-gray-700 bg-white dark:bg-gray-800'
-                    }`}
+                    className={`p-3 rounded-xl border-2 text-left flex items-center gap-2 transition-colors ${selectedCategory === cat.id
+                      ? 'border-green-500 bg-green-50 dark:bg-green-900/20'
+                      : 'border-gray-100 dark:border-gray-700 bg-white dark:bg-gray-800'
+                      }`}
                   >
                     <span className="text-xl">{cat.emoji}</span>
                     <span className="text-xs font-semibold text-gray-700 dark:text-gray-300">{cat.label}</span>
@@ -153,7 +153,7 @@ export function MultiplayerHub() {
               whileTap={{ scale: 0.97 }}
               disabled={!username.trim()}
               onClick={() => createRoom(username.trim(), selectedCategory)}
-              className="w-full bg-purple-600 text-white font-bold py-4 rounded-2xl disabled:opacity-40"
+              className="w-full bg-green-600 text-white font-bold py-4 rounded-2xl disabled:opacity-40"
             >
               Create Room
             </motion.button>
@@ -165,15 +165,17 @@ export function MultiplayerHub() {
           <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} className="flex flex-col gap-4 pt-2">
             <h2 className="font-bold text-gray-800 dark:text-gray-200">Join a Room</h2>
             <input
-              className="w-full bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-600 rounded-2xl px-4 py-3 text-gray-900 dark:text-white font-medium focus:outline-none focus:border-purple-400 dark:placeholder-gray-500"
+              className="w-full bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-600 rounded-2xl px-4 py-3 text-gray-900 dark:text-white font-medium focus:outline-none focus:border-green-400 dark:placeholder-gray-500"
               placeholder="Your username"
+              aria-label="Your username"
               value={username}
               onChange={e => setUsername(e.target.value)}
               maxLength={20}
             />
             <input
-              className="w-full bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-600 rounded-2xl px-4 py-3 text-gray-900 dark:text-white font-black text-2xl tracking-widest uppercase text-center focus:outline-none focus:border-purple-400 dark:placeholder-gray-500"
+              className="w-full bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-600 rounded-2xl px-4 py-3 text-gray-900 dark:text-white font-black text-2xl tracking-widest uppercase text-center focus:outline-none focus:border-green-400 dark:placeholder-gray-500"
               placeholder="ROOM CODE"
+              aria-label="Room code"
               value={roomCode}
               onChange={e => setRoomCode(e.target.value.toUpperCase().slice(0, 6))}
               maxLength={6}
@@ -182,7 +184,7 @@ export function MultiplayerHub() {
               whileTap={{ scale: 0.97 }}
               disabled={!username.trim() || roomCode.length < 4}
               onClick={() => joinRoom(roomCode, username.trim())}
-              className="w-full bg-purple-600 text-white font-bold py-4 rounded-2xl disabled:opacity-40"
+              className="w-full bg-green-600 text-white font-bold py-4 rounded-2xl disabled:opacity-40"
             >
               Join Room
             </motion.button>
@@ -199,7 +201,7 @@ export function MultiplayerHub() {
                 whileTap={{ scale: 0.97 }}
                 disabled={room.players.length < 1}
                 onClick={() => startGame(room.code)}
-                className="w-full bg-purple-600 text-white font-bold py-4 rounded-2xl shadow-lg disabled:opacity-40"
+                className="w-full bg-green-600 text-white font-bold py-4 rounded-2xl shadow-lg disabled:opacity-40"
               >
                 Start Game ({room.players.length} player{room.players.length !== 1 ? 's' : ''})
               </motion.button>
@@ -256,11 +258,10 @@ export function MultiplayerHub() {
                   initial={{ opacity: 0, scale: 0.9 }}
                   animate={{ opacity: 1, scale: 1 }}
                   exit={{ opacity: 0 }}
-                  className={`text-center p-4 rounded-2xl font-bold ${
-                    state.lastAnswerResult.correct
-                      ? 'bg-green-50 text-green-700'
-                      : 'bg-red-50 text-red-700'
-                  }`}
+                  className={`text-center p-4 rounded-2xl font-bold ${state.lastAnswerResult.correct
+                    ? 'bg-green-50 dark:bg-green-900/20 text-green-700 dark:text-green-400'
+                    : 'bg-red-50 dark:bg-red-900/20 text-red-700 dark:text-red-400'
+                    }`}
                 >
                   {state.lastAnswerResult.correct
                     ? `+${state.lastAnswerResult.pointsEarned} pts! 🎉`
@@ -299,7 +300,7 @@ export function MultiplayerHub() {
             <motion.button
               whileTap={{ scale: 0.97 }}
               onClick={handleLeave}
-              className="w-full bg-purple-600 text-white font-bold py-4 rounded-2xl"
+              className="w-full bg-green-600 text-white font-bold py-4 rounded-2xl"
             >
               Back to Menu
             </motion.button>
