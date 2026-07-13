@@ -3,6 +3,7 @@ import { createServer } from 'http';
 import { Server } from 'socket.io';
 import { createApp } from './app.js';
 import { registerHandlers } from './socket/handlers.js';
+import { initDb } from './db.js';
 
 const PORT = Number(process.env.PORT ?? 3001);
 const app = createApp();
@@ -21,6 +22,13 @@ io.on('connection', socket => {
   socket.on('disconnect', () => console.log(`[ws] disconnected: ${socket.id}`));
 });
 
-httpServer.listen(PORT, () => {
-  console.log(`🟢 Showcase Nigeria server running on http://localhost:${PORT}`);
-});
+initDb()
+  .then(() => {
+    httpServer.listen(PORT, () => {
+      console.log(`🟢 Showcase Nigeria server running on http://localhost:${PORT}`);
+    });
+  })
+  .catch(err => {
+    console.error('❌ Failed to initialise database:', err);
+    process.exit(1);
+  });

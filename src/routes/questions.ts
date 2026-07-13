@@ -6,7 +6,7 @@ import { fileURLToPath } from 'url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const router = Router();
 
-const CATEGORIES = ['food', 'music', 'culture', 'sports', 'geography', 'nollywood'] as const;
+const CATEGORIES = ['food', 'music', 'culture', 'sports', 'geography', 'nollywood', 'history', 'fashion', 'linguistics'] as const;
 
 function loadCategory(categoryId: string) {
   const filePath = join(__dirname, '../../data', `${categoryId}.json`);
