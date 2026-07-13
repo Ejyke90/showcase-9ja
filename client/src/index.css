@@ -50,6 +50,28 @@ body.modal-open {
   overflow: hidden;
 }
 
+/* Safe-area padding for iOS home indicator, used by BottomNav */
+.safe-bottom {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+/* Visible focus ring for keyboard nav — buttons, inputs, links */
+:focus-visible {
+  outline: 2px solid var(--color-nigerian-green);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Respect reduced-motion preference for infinite/looping animations */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
 /* Confetti particle */
 .confetti-particle {
   position: fixed;

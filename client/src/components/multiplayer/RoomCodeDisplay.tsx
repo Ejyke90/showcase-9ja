@@ -12,21 +12,22 @@ export function RoomCodeDisplay({ code }: { code: string }) {
   };
 
   return (
-    <div className="bg-white rounded-2xl p-5 border border-gray-100 shadow-sm text-center">
-      <p className="text-xs text-gray-400 font-medium mb-2 uppercase tracking-wide">Room Code</p>
+    <div className="bg-white dark:bg-gray-800 rounded-2xl p-5 border border-gray-100 dark:border-gray-700 shadow-sm text-center">
+      <p className="text-xs text-gray-400 dark:text-gray-500 font-medium mb-2 uppercase tracking-wide">Room Code</p>
       <div className="flex items-center justify-center gap-3">
-        <span className="text-4xl font-black tracking-widest text-nigerian-green font-mono">
+        <span className="text-4xl font-black tracking-widest text-nigerian-green dark:text-nigerian-green-light font-mono">
           {code}
         </span>
         <motion.button
           whileTap={{ scale: 0.9 }}
           onClick={copy}
-          className="p-2 rounded-xl bg-nigerian-green/10 text-nigerian-green"
+          aria-label="Copy room code"
+          className="p-2 rounded-xl bg-nigerian-green/10 dark:bg-nigerian-green/20 text-nigerian-green dark:text-nigerian-green-light"
         >
           {copied ? <Check size={18} /> : <Copy size={18} />}
         </motion.button>
       </div>
-      <p className="text-xs text-gray-400 mt-2">Share this code with friends to join</p>
+      <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">Share this code with friends to join</p>
     </div>
   );
 }

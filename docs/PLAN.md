@@ -1,7 +1,7 @@
 # Showcase Nigeria v2 — Architecture & Plan
 
 ## Overview
-"Showcase Nigeria" is a fun, mobile-responsive React TypeScript quiz web app covering 6 Nigerian cultural categories. Supports solo play (with localStorage progress) and WebSocket-powered multiplayer rooms. Single deployable unit — the Node.js server serves both the API/WebSocket and the compiled React frontend static files.
+"Showcase Nigeria" is a fun, mobile-responsive React TypeScript quiz web app covering 6 Nigerian cultural categories. Supports solo play (with localStorage progress) and WebSocket-powered multiplayer rooms. Single deployable unit — the Node.js server serves both the API/WebSocket and the compiled React frontend static files. The global leaderboard persists to a Neon (serverless Postgres) database.
 
 ---
 
@@ -11,8 +11,9 @@
 v2/                        ← root = the server
 ├── src/                   ← Node.js backend source
 │   ├── types/             ← room.ts, events.ts
-│   ├── routes/            ← questions.ts, leaderboard.ts
+│   ├── routes/            ← questions.ts, leaderboard.ts (Postgres-backed)
 │   └── socket/            ← roomManager.ts, handlers.ts
+│   └── db.ts              ← Neon/Postgres pool + schema init
 │   └── app.ts             ← Express app factory
 │   └── index.ts           ← HTTP server entry point (port 3001)
 ├── data/                  ← 120 Nigerian quiz questions (6 × 20 JSON)
@@ -30,7 +31,7 @@ v2/                        ← root = the server
 │   │   └── pages/         ← Home, Categories, QuizPlay, MultiplayerHub, Leaderboard, Profile
 │   ├── public/
 │   ├── package.json
-│   ├── vite.config.ts     ← build outDir: ../dist/client; dev proxy → :3001
+│   ├── vite.config.ts     ← build outDir: dist (client/dist); dev proxy → :3001
 │   └── tsconfig.json
 ├── package.json           ← server deps + workspace scripts
 ├── tsconfig.json          ← backend TypeScript config
@@ -50,6 +51,7 @@ v2/                        ← root = the server
 | WebSocket client | socket.io-client |
 | Backend runtime | Node.js 20 + Express |
 | WebSocket server | socket.io |
+| Database | Neon (serverless Postgres) via `pg` driver |
 | Language | TypeScript throughout |
 
 **Brand colors:** Nigerian Green `#008751` · Festive Gold `#F4B400`
@@ -61,6 +63,8 @@ v2/                        ← root = the server
 120 curated Nigerian quiz questions (20 per category) stored as JSON in `/data/`. Live scraping of jeopardylabs.com is not used — CORS blocks it and scraping is fragile. Questions align with Nigerian topics browseable at that URL.
 
 **Categories:** food · music · culture · sports · geography · nollywood
+
+**Leaderboard:** persisted in a Neon Postgres `leaderboard` table (`src/db.ts`, `src/routes/leaderboard.ts`) — survives server restarts, replacing the old in-memory array. Connection string read from `DATABASE_URI` env var (`.env`). Table auto-created on server boot via `initDb()`.
 
 ---
 
@@ -109,7 +113,9 @@ Server → Client:
 
 ## Deployment Strategy
 
-`npm run build` in client outputs to `../dist/client/`. Express serves this as static files in production. **One Docker image, one port, one deployment.**
+`npm run build` in client outputs to `client/dist/`. Express serves this as static files in production. **One Docker image, one port, one deployment.**
+
+Requires `DATABASE_URI` (Neon Postgres connection string) in the environment/`.env` at boot — the server exits if it can't connect. Pass it to the container via `--env-file .env` or `-e DATABASE_URI=...`.
 
 ```dockerfile
 # Multi-stage: build client → build server → combine into final image
@@ -118,7 +124,7 @@ WORKDIR /app/client
 COPY client/package*.json ./
 RUN npm ci
 COPY client/ ./
-RUN npm run build           # → /app/dist/client/
+RUN npm run build           # → /app/client/dist/
 
 FROM node:20-alpine AS server-build
 WORKDIR /app
@@ -131,7 +137,7 @@ RUN npm run build           # → /app/dist/
 FROM node:20-alpine
 WORKDIR /app
 COPY --from=server-build /app/dist ./dist
-COPY --from=client-build /app/dist/client ./dist/client
+COPY --from=client-build /app/client/dist ./client/dist
 COPY package*.json ./
 COPY data/ ./data/
 RUN npm ci --omit=dev
@@ -143,6 +149,8 @@ CMD ["node", "dist/index.js"]
 ---
 
 ## LocalStorage Schema
+
+Client-only UX state — username, theme, per-device solo progress, pending multiplayer room code for reconnect. Not authoritative and not synced to the server. (Global leaderboard is the one piece of state that's server-authoritative, in Neon Postgres — see Data Strategy above.)
 
 ```json
 {
