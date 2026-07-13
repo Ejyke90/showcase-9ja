@@ -1,11 +1,10 @@
 import { motion } from 'framer-motion';
-import { Home, BookOpen, Users, Trophy, User } from 'lucide-react';
+import { Home, BookOpen, Trophy, User } from 'lucide-react';
 import { useGame, type TabId } from '../../context/GameContext';
 
 const TABS: { id: TabId; icon: React.ComponentType<{ size: number; strokeWidth: number }>; label: string }[] = [
   { id: 'home', icon: Home, label: 'Home' },
   { id: 'categories', icon: BookOpen, label: 'Play' },
-  { id: 'multiplayer', icon: Users, label: 'Multiplayer' },
   { id: 'leaderboard', icon: Trophy, label: 'Scores' },
   { id: 'profile', icon: User, label: 'Profile' },
 ];

@@ -1,12 +1,10 @@
 import { createContext, useContext } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
-import { SocketProvider } from './context/SocketContext';
 import { GameProvider, useGame } from './context/GameContext';
 import { BottomNav } from './components/ui/BottomNav';
 import { Home } from './pages/Home';
 import { Categories } from './pages/Categories';
 import { QuizPlay } from './pages/QuizPlay';
-import { MultiplayerHub } from './pages/MultiplayerHub';
 import { Leaderboard } from './pages/Leaderboard';
 import { Profile } from './pages/Profile';
 import { useDarkMode } from './hooks/useDarkMode';
@@ -46,7 +44,6 @@ function AppContent() {
             >
               {activeTab === 'home' && <Home />}
               {activeTab === 'categories' && <Categories />}
-              {activeTab === 'multiplayer' && <MultiplayerHub />}
               {activeTab === 'leaderboard' && <Leaderboard />}
               {activeTab === 'profile' && <Profile />}
             </motion.div>
@@ -62,11 +59,9 @@ export default function App() {
   const darkMode = useDarkMode();
   return (
     <DarkModeContext.Provider value={darkMode}>
-      <SocketProvider>
-        <GameProvider>
-          <AppContent />
-        </GameProvider>
-      </SocketProvider>
+      <GameProvider>
+        <AppContent />
+      </GameProvider>
     </DarkModeContext.Provider>
   );
 }

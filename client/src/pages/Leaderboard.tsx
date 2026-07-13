@@ -1,30 +1,10 @@
-import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Trophy } from 'lucide-react';
 import { useProgress } from '../hooks/useProgress';
 import { CATEGORIES } from '../types/quiz';
 
-interface LeaderboardEntry {
-  username: string;
-  score: number;
-  category: string;
-  timestamp: number;
-}
-
 export function Leaderboard() {
   const { progress } = useProgress();
-  const [global, setGlobal] = useState<LeaderboardEntry[]>([]);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    fetch('/api/leaderboard')
-      .then(r => r.json())
-      .then(({ leaderboard }) => {
-        setGlobal(leaderboard ?? []);
-        setLoading(false);
-      })
-      .catch(() => setLoading(false));
-  }, []);
 
   const catStats = CATEGORIES.map(cat => ({
     category: cat,
@@ -71,41 +51,6 @@ export function Leaderboard() {
               </motion.div>
             ))}
           </div>
-        </div>
-
-        {/* Global leaderboard */}
-        <div>
-          <h2 className="font-bold text-gray-800 dark:text-gray-200 text-sm mb-3">Global Rankings</h2>
-          {loading ? (
-            <div className="text-center py-8 text-gray-400 dark:text-gray-500 text-sm">Loading…</div>
-          ) : global.length === 0 ? (
-            <div className="bg-white dark:bg-gray-800 rounded-2xl border border-gray-100 dark:border-gray-700 p-8 text-center">
-              <p className="text-4xl mb-2">🏅</p>
-              <p className="text-gray-500 dark:text-gray-400 text-sm">No global scores yet.</p>
-              <p className="text-gray-400 dark:text-gray-500 text-xs mt-1">Complete a quiz to appear here!</p>
-            </div>
-          ) : (
-            <div className="bg-white dark:bg-gray-800 rounded-2xl border border-gray-100 dark:border-gray-700 shadow-sm overflow-hidden">
-              {global.slice(0, 20).map((entry, i) => (
-                <div
-                  key={`${entry.username}-${i}`}
-                  className={`flex items-center gap-3 px-4 py-3 border-b border-gray-50 dark:border-gray-700 last:border-0 ${entry.username === progress.username ? 'bg-nigerian-green/5' : ''}`}
-                >
-                  <span className="w-6 text-center text-sm font-bold text-gray-400 dark:text-gray-500">
-                    {i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : i + 1}
-                  </span>
-                  <div className="flex-1 min-w-0">
-                    <p className={`font-semibold text-sm ${entry.username === progress.username ? 'text-nigerian-green' : 'text-gray-900 dark:text-white'}`}>
-                      {entry.username}
-                      {entry.username === progress.username && ' (you)'}
-                    </p>
-                    <p className="text-xs text-gray-400 dark:text-gray-500 capitalize">{entry.category}</p>
-                  </div>
-                  <span className="font-bold text-gray-800 dark:text-gray-200 tabular-nums">{entry.score.toLocaleString()}</span>
-                </div>
-              ))}
-            </div>
-          )}
         </div>
       </div>
     </div>

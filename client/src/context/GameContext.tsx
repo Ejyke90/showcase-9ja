@@ -7,7 +7,7 @@ import {
 } from 'react';
 import type { QuizSession, Question, CategoryId, QuizResult } from '../types/quiz';
 
-export type TabId = 'home' | 'categories' | 'multiplayer' | 'leaderboard' | 'profile';
+export type TabId = 'home' | 'categories' | 'leaderboard' | 'profile';
 
 interface GameState {
   activeTab: TabId;
