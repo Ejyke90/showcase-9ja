@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   envDir: '..', // load .env from v2/ root
   build: {
-    outDir: '../dist/client',
+    outDir: 'dist',
     emptyOutDir: true,
   },
   server: {
