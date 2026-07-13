@@ -298,5 +298,80 @@
     "explanation": "Ofe Akwu (palm nut soup) is an Igbo soup made from boiled and extracted palm nuts, cooked with assorted meat, fish, and spices. It is similar to Banga soup.",
     "difficulty": "medium",
     "pointValue": 200
+  },
+  {
+    "id": "food_021",
+    "categoryId": "food",
+    "question": "Which popular Nigerian dish is made with tomatoes, onions, pepper, spices, oil, and vegetables and is often compared to Spanish rice?",
+    "options": [
+      { "id": "a", "text": "Fried rice" },
+      { "id": "b", "text": "Tuwo shinkafa" },
+      { "id": "c", "text": "Jollof rice" },
+      { "id": "d", "text": "Ofada rice" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Jollof rice is Nigeria's most iconic dish — rice cooked in a rich tomato and pepper base with spices. The Nigerian vs. Ghanaian Jollof rivalry is one of the most spirited debates in West African food culture.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "food_022",
+    "categoryId": "food",
+    "question": "Which West African staple is made by pounding starchy vegetables like cassava, yam, or plantain into a smooth ball eaten with soups or sauces?",
+    "options": [
+      { "id": "a", "text": "Akara" },
+      { "id": "b", "text": "Fufu" },
+      { "id": "c", "text": "Moin-moin" },
+      { "id": "d", "text": "Puff-puff" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Fufu (also called Garri when made from cassava) is a smooth, dough-like ball made by pounding or processing starchy staples. It is eaten by picking off small pieces and dipping them into soups like Egusi or Okra soup.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "food_023",
+    "categoryId": "food",
+    "question": "Which Nigerian soup is thickened with ground melon seeds and contains leaf vegetables, assorted meat or fish, and seasonings?",
+    "options": [
+      { "id": "a", "text": "Banga soup" },
+      { "id": "b", "text": "Okra soup" },
+      { "id": "c", "text": "Egusi soup" },
+      { "id": "d", "text": "Groundnut soup" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Egusi soup is made with ground melon (egusi) seeds as the thickener, combined with leafy vegetables (ugu, bitterleaf), palm oil, meat, and fish. It is one of the most widely eaten soups across Nigeria.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "food_024",
+    "categoryId": "food",
+    "question": "What is 'chin-chin'?",
+    "options": [
+      { "id": "a", "text": "A spicy pepper soup" },
+      { "id": "b", "text": "A fermented locust bean condiment" },
+      { "id": "c", "text": "A steamed bean pudding" },
+      { "id": "d", "text": "A crunchy deep-fried snack made from flour, sugar, and eggs" }
+    ],
+    "correctOptionId": "d",
+    "explanation": "Chin-chin is a beloved Nigerian crunchy snack made from wheat flour, sugar, eggs, butter, and sometimes milk or coconut. It is deep-fried until golden and eaten at parties, ceremonies, and as an everyday treat.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "food_025",
+    "categoryId": "food",
+    "question": "Which baked Nigerian snack is a pastry filled with spiced minced meat, vegetables, and sometimes potatoes?",
+    "options": [
+      { "id": "a", "text": "Puff-puff" },
+      { "id": "b", "text": "Scotch egg" },
+      { "id": "c", "text": "Meat pie" },
+      { "id": "d", "text": "Sausage roll" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Nigerian meat pie is a baked shortcrust pastry filled with seasoned minced beef, carrots, potatoes, and onions. It is a staple party snack and a popular street food across Nigeria, and is sold everywhere from bakeries to road-side vendors.",
+    "difficulty": "easy",
+    "pointValue": 100
   }
 ]

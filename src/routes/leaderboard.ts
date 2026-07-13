@@ -1,19 +1,24 @@
 import { Router } from 'express';
+import { sql } from '../db.js';
 
 const router = Router();
 
-// In-memory leaderboard — resets on server restart
-// In production, replace with a database
-const entries: { username: string; score: number; category: string; timestamp: number }[] = [];
-
-router.get('/', (_req, res) => {
-  const sorted = [...entries]
-    .sort((a, b) => b.score - a.score)
-    .slice(0, 50);
-  res.json({ leaderboard: sorted });
+router.get('/', async (_req, res) => {
+  try {
+    const rows = await sql`
+      SELECT username, score, category, timestamp
+      FROM leaderboard
+      ORDER BY score DESC
+      LIMIT 50
+    `;
+    res.json({ leaderboard: rows });
+  } catch (err) {
+    console.error('[leaderboard GET]', err);
+    res.status(500).json({ error: 'Failed to fetch leaderboard' });
+  }
 });
 
-router.post('/', (req, res) => {
+router.post('/', async (req, res) => {
   const { username, score, category } = req.body as {
     username: string;
     score: number;
@@ -23,9 +28,18 @@ router.post('/', (req, res) => {
     res.status(400).json({ error: 'username, score, and category are required' });
     return;
   }
-  const entry = { username: username.slice(0, 20), score, category, timestamp: Date.now() };
-  entries.push(entry);
-  res.json({ ok: true, entry });
+  try {
+    const timestamp = Date.now();
+    const [entry] = await sql`
+      INSERT INTO leaderboard (username, score, category, timestamp)
+      VALUES (${username.slice(0, 20)}, ${score}, ${category}, ${timestamp})
+      RETURNING username, score, category, timestamp
+    `;
+    res.json({ ok: true, entry });
+  } catch (err) {
+    console.error('[leaderboard POST]', err);
+    res.status(500).json({ error: 'Failed to save score' });
+  }
 });
 
 export default router;

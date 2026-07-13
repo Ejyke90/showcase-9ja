@@ -298,5 +298,50 @@
     "explanation": "Ayra Starr (Oyinkansola Aderibigbe) broke through with 'Away' (2021) from her self-titled debut EP. She was signed to Mavin Records and quickly became one of Afrobeats' brightest stars.",
     "difficulty": "medium",
     "pointValue": 200
+  },
+  {
+    "id": "music_021",
+    "categoryId": "music",
+    "question": "Which type of Nigerian music has lyrics that largely consist of folk tales and oral traditions?",
+    "options": [
+      { "id": "a", "text": "Afrobeats" },
+      { "id": "b", "text": "Fuji" },
+      { "id": "c", "text": "Traditional/Folk Music" },
+      { "id": "d", "text": "Highlife" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Traditional/Folk Music is characterised by lyrics rooted in oral traditions, folk tales, proverbs, and community history. Each Nigerian ethnic group has its own folk music tradition passed down through generations.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "music_022",
+    "categoryId": "music",
+    "question": "Haruna Ishola was the most celebrated musician of which Nigerian music genre?",
+    "options": [
+      { "id": "a", "text": "Highlife" },
+      { "id": "b", "text": "Afrobeats" },
+      { "id": "c", "text": "Jùjú" },
+      { "id": "d", "text": "Apala" }
+    ],
+    "correctOptionId": "d",
+    "explanation": "Haruna Ishola (1919–1983) was the undisputed king of Apala — a Yoruba percussion-driven music style rooted in Islamic traditions. Apala uses talking drums and vocals without Western instruments.",
+    "difficulty": "medium",
+    "pointValue": 150
+  },
+  {
+    "id": "music_023",
+    "categoryId": "music",
+    "question": "Nigerian music fused its native rhythms with techniques imported from which other African country to develop unique styles like Apala, Fuji, Jùjú, Highlife, and Yo-pop?",
+    "options": [
+      { "id": "a", "text": "Ghana" },
+      { "id": "b", "text": "Senegal" },
+      { "id": "c", "text": "Congo" },
+      { "id": "d", "text": "Cameroon" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Congolese rumba and guitar styles heavily influenced Nigerian musicians in the mid-20th century, contributing to the development of Highlife and Yo-pop. Congolese rhythms blended with indigenous Yoruba and Igbo traditions to shape modern Nigerian music.",
+    "difficulty": "hard",
+    "pointValue": 200
   }
 ]

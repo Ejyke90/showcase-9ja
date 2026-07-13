@@ -1,0 +1,302 @@
+[
+  {
+    "id": "fashion_001",
+    "categoryId": "fashion",
+    "question": "What material is most Nigerian traditional clothing made from today?",
+    "options": [
+      { "id": "a", "text": "Kente cloth" },
+      { "id": "b", "text": "Ankara (African wax print)" },
+      { "id": "c", "text": "Silk damask" },
+      { "id": "d", "text": "Linen" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Ankara — brightly coloured African wax-print cotton fabric — is the dominant material in contemporary Nigerian fashion. Its bold geometric and floral patterns are instantly recognisable worldwide.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "fashion_002",
+    "categoryId": "fashion",
+    "question": "What is a 'Gele'?",
+    "options": [
+      { "id": "a", "text": "A men's embroidered cap" },
+      { "id": "b", "text": "A large rectangular headwrap worn by Nigerian women" },
+      { "id": "c", "text": "A beaded ankle bracelet" },
+      { "id": "d", "text": "A woven waist sash" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A Gele is a stiff, elaborately tied headwrap worn by Nigerian women — especially Yoruba women — at celebrations such as weddings and naming ceremonies. The art of tying a perfect Gele is highly prized.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "fashion_003",
+    "categoryId": "fashion",
+    "question": "Which Nigerian ethnic group is historically known for wearing clothing as a symbol of status and wealth?",
+    "options": [
+      { "id": "a", "text": "Hausa-Fulani" },
+      { "id": "b", "text": "Tiv" },
+      { "id": "c", "text": "Yoruba" },
+      { "id": "d", "text": "Ijaw" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "The Yoruba people of southwestern Nigeria are renowned for using clothing as a display of wealth, rank, and social standing. Chiefs and nobles wore specific fabrics and accessories to signal their positions.",
+    "difficulty": "medium",
+    "pointValue": 150
+  },
+  {
+    "id": "fashion_004",
+    "categoryId": "fashion",
+    "question": "What is a 'Buba'?",
+    "options": [
+      { "id": "a", "text": "A long flowing gown reaching the ankles" },
+      { "id": "b", "text": "A loose blouse that falls below the waist (women) or to mid-thigh (men)" },
+      { "id": "c", "text": "A narrow trousersuit" },
+      { "id": "d", "text": "A beaded ceremonial crown" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A Buba is a wide, loose-fitting blouse or top that is a staple of Yoruba traditional dress. Women's Buba is longer (below the waist); men's is shorter. It is usually paired with a wrapper (Iro) or trousers (Sokoto).",
+    "difficulty": "medium",
+    "pointValue": 150
+  },
+  {
+    "id": "fashion_005",
+    "categoryId": "fashion",
+    "question": "What is the 'Agbada'?",
+    "options": [
+      { "id": "a", "text": "A narrow embroidered skirt" },
+      { "id": "b", "text": "A fitted military-style jacket" },
+      { "id": "c", "text": "A wide, flowing ceremonial robe worn by men over their outfit" },
+      { "id": "d", "text": "A type of woven leather sandal" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "The Agbada (also known as Babariga in Hausa culture) is a voluminous, often embroidered flowing robe worn by men over an inner tunic and trousers. It is the quintessential Nigerian men's formal wear.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "fashion_006",
+    "categoryId": "fashion",
+    "question": "What is 'Aso-Oke'?",
+    "options": [
+      { "id": "a", "text": "A hand-woven fabric used in Yoruba ceremonial dress" },
+      { "id": "b", "text": "A type of Igbo body paint" },
+      { "id": "c", "text": "A Hausa leather market" },
+      { "id": "d", "text": "A beaded necklace of the Bini kingdom" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Aso-Oke (Yoruba: 'top cloth') is a hand-loomed fabric woven by the Yoruba. It comes in three varieties — Ẹlẹ, Sanyan, and Alàarì — and is used for making Agbada, Gele, and Iro for special occasions.",
+    "difficulty": "medium",
+    "pointValue": 150
+  },
+  {
+    "id": "fashion_007",
+    "categoryId": "fashion",
+    "question": "The Hausa-Fulani cap worn by northern Nigerian men is called what?",
+    "options": [
+      { "id": "a", "text": "Okpu" },
+      { "id": "b", "text": "Fila" },
+      { "id": "c", "text": "Tagelmust" },
+      { "id": "d", "text": "Zanna" }
+    ],
+    "correctOptionId": "d",
+    "explanation": "The tall, cylindrical embroidered cap worn by Hausa-Fulani men in Northern Nigeria is known as a Zanna or Daura cap. Yoruba men wear the Fila (a soft, collapsible cap), while Igbo men traditionally wear the Okpu Agu.",
+    "difficulty": "hard",
+    "pointValue": 200
+  },
+  {
+    "id": "fashion_008",
+    "categoryId": "fashion",
+    "question": "What does 'Aso-Ebi' literally mean and what is its purpose?",
+    "options": [
+      { "id": "a", "text": "'Fine cloth' — worn for everyday use" },
+      { "id": "b", "text": "'Family cloth' — uniform fabric worn by a group to show solidarity at a celebration" },
+      { "id": "c", "text": "'Sacred wrap' — used only in religious ceremonies" },
+      { "id": "d", "text": "'Prestige cloth' — available only to royalty" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Aso-Ebi (Yoruba: 'family cloth') is the Nigerian tradition of a group wearing matching fabric at social events like weddings and naming ceremonies to show unity and support for the host family.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "fashion_009",
+    "categoryId": "fashion",
+    "question": "Which Nigerian-British designer became the first Black designer to receive the LVMH Prize in 2019?",
+    "options": [
+      { "id": "a", "text": "Deola Sagoe" },
+      { "id": "b", "text": "Kenneth Ize" },
+      { "id": "c", "text": "Lanre da Silva Ajayi" },
+      { "id": "d", "text": "Lisa Folawiyo" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Kenneth Ize, a Nigerian fashion designer based in Lagos and Vienna, won the Karl Lagerfeld Prize (a special prize of the LVMH Prize) in 2019. He is known for using traditional Aso-Oke weaving in contemporary fashion.",
+    "difficulty": "hard",
+    "pointValue": 200
+  },
+  {
+    "id": "fashion_010",
+    "categoryId": "fashion",
+    "question": "The Igbo traditional wedding attire for brides typically features what distinctive element?",
+    "options": [
+      { "id": "a", "text": "A full white wedding gown" },
+      { "id": "b", "text": "A bright blue dye all-over body design" },
+      { "id": "c", "text": "A George wrapper with a colourful blouse and elaborate coral beads" },
+      { "id": "d", "text": "An Ankara jumpsuit" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "A traditional Igbo bride wears a George wrapper (imported jacquard fabric) with a complementing blouse, elaborate coral bead jewellery, and a headpiece. Coral beads symbolise royalty and prosperity in Igbo culture.",
+    "difficulty": "medium",
+    "pointValue": 150
+  },
+  {
+    "id": "fashion_011",
+    "categoryId": "fashion",
+    "question": "What is 'Adire'?",
+    "options": [
+      { "id": "a", "text": "A tie-and-dye indigo-blue resist-dyed fabric from Yorubaland" },
+      { "id": "b", "text": "A red cotton fabric from Kano" },
+      { "id": "c", "text": "A silver jewellery style from the Benin Kingdom" },
+      { "id": "d", "text": "A Northern Nigerian embroidery stitch" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Adire (Yoruba: 'tie and dye') is a traditional Yoruba indigo-dyed cloth created using resist-dyeing methods — either by tying, stitching, or applying cassava paste to create patterns. It originates in Abeokuta.",
+    "difficulty": "medium",
+    "pointValue": 150
+  },
+  {
+    "id": "fashion_012",
+    "categoryId": "fashion",
+    "question": "Nigerian fashion week is held in which city?",
+    "options": [
+      { "id": "a", "text": "Abuja" },
+      { "id": "b", "text": "Kano" },
+      { "id": "c", "text": "Port Harcourt" },
+      { "id": "d", "text": "Lagos" }
+    ],
+    "correctOptionId": "d",
+    "explanation": "Lagos Fashion Week (LFW) is West Africa's biggest fashion event, held annually in Lagos. Founded by Omoyemi Akerele in 2011, it showcases both established Nigerian designers and emerging talents.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "fashion_013",
+    "categoryId": "fashion",
+    "question": "The 'Fila Abeti-Aja' is a traditional Yoruba cap whose name translates to what?",
+    "options": [
+      { "id": "a", "text": "Cap of the king" },
+      { "id": "b", "text": "Cap that listens like a dog's ears" },
+      { "id": "c", "text": "Cap of the brave warrior" },
+      { "id": "d", "text": "Cap of many colours" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The Fila Abeti-Aja (Yoruba: 'cap with dog's ears') has two fabric flaps at the sides that resemble a dog's ears. It is a popular and distinctive Yoruba cap worn to ceremonies and events.",
+    "difficulty": "hard",
+    "pointValue": 200
+  },
+  {
+    "id": "fashion_014",
+    "categoryId": "fashion",
+    "question": "Which Nigerian designer is known for fusing traditional Yoruba aesthetics with modern silhouettes and founded the brand 'Jewel by Lisa'?",
+    "options": [
+      { "id": "a", "text": "Lisa Folawiyo" },
+      { "id": "b", "text": "Deola Sagoe" },
+      { "id": "c", "text": "Tiffany Amber" },
+      { "id": "d", "text": "Mai Atafo" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Lisa Folawiyo of Jewel by Lisa pioneered the use of Ankara in high-fashion ready-to-wear, adding beading and embroidery to elevate the fabric from market stalls to international runways.",
+    "difficulty": "hard",
+    "pointValue": 200
+  },
+  {
+    "id": "fashion_015",
+    "categoryId": "fashion",
+    "question": "The 'Iro and Buba' is a traditional outfit for which ethnic group?",
+    "options": [
+      { "id": "a", "text": "Hausa-Fulani" },
+      { "id": "b", "text": "Yoruba" },
+      { "id": "c", "text": "Igbo" },
+      { "id": "d", "text": "Efik" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The Iro (a wrap-around skirt) and Buba (loose blouse) combination is the traditional female attire of the Yoruba people. It is typically paired with a Gele headwrap and Ipele (shoulder sash) for ceremonies.",
+    "difficulty": "medium",
+    "pointValue": 150
+  },
+  {
+    "id": "fashion_016",
+    "categoryId": "fashion",
+    "question": "What is 'Ukara' cloth, used in secret society regalia by which group?",
+    "options": [
+      { "id": "a", "text": "Yoruba Ogboni society" },
+      { "id": "b", "text": "Igbo Ekpe (Leopard) society" },
+      { "id": "c", "text": "Hausa Bori cult" },
+      { "id": "d", "text": "Ijaw Sekiapu society" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Ukara is a dark blue resist-dyed cloth with symbols of the Ekpe (Leopard) secret society used among the Igbo (especially Cross River Igbo / Efik people). The symbols encode society laws and are read only by initiates.",
+    "difficulty": "hard",
+    "pointValue": 200
+  },
+  {
+    "id": "fashion_017",
+    "categoryId": "fashion",
+    "question": "Kano is famous in Nigeria for producing which type of traditional textile?",
+    "options": [
+      { "id": "a", "text": "George fabric" },
+      { "id": "b", "text": "Hand-dyed indigo-blue strip-woven cloth" },
+      { "id": "c", "text": "Aso-Oke" },
+      { "id": "d", "text": "Adire" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Kano's famous Kofar Mata dye pits (over 500 years old) produce the deeply saturated indigo 'Yan Kura' (Hausa blue cloth). The city has been a textile centre since the days of the Kano Chronicle.",
+    "difficulty": "hard",
+    "pointValue": 200
+  },
+  {
+    "id": "fashion_018",
+    "categoryId": "fashion",
+    "question": "What is a 'Danshiki' (Dashiki)?",
+    "options": [
+      { "id": "a", "text": "A colourful pullover shirt with V-neck embroidery, popular across West Africa" },
+      { "id": "b", "text": "A woven mat used as a prayer rug" },
+      { "id": "c", "text": "A type of Igbo funeral mask" },
+      { "id": "d", "text": "A Fulani nomadic tent fabric" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The Dashiki (Yoruba: Danshiki) is a loose, colourful pullover top with elaborate embroidery around the V-shaped neckline. It became a global symbol of African pride during the Black Power movement of the 1960s–70s.",
+    "difficulty": "medium",
+    "pointValue": 150
+  },
+  {
+    "id": "fashion_019",
+    "categoryId": "fashion",
+    "question": "The coral bead regalia of the Oba of Benin is made from which material?",
+    "options": [
+      { "id": "a", "text": "Glass beads from Venice" },
+      { "id": "b", "text": "Red coral harvested from the sea" },
+      { "id": "c", "text": "Carved ivory" },
+      { "id": "d", "text": "Polished red clay" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Red coral beads (Igoho) are central to Benin royal regalia. The Oba of Benin wears a full coral bead costume including crown, collar, and garments. Red coral symbolises royalty, authority, and connection to the sea deity Olokun.",
+    "difficulty": "medium",
+    "pointValue": 150
+  },
+  {
+    "id": "fashion_020",
+    "categoryId": "fashion",
+    "question": "Nigerian-American supermodel Oluchi Onweagba won which international modelling competition in 1998?",
+    "options": [
+      { "id": "a", "text": "Ford Models Supermodel of the World" },
+      { "id": "b", "text": "Elite Model Look" },
+      { "id": "c", "text": "NEXT Model Management competition" },
+      { "id": "d", "text": "Wilhelmina Models search" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Oluchi Onweagba-Orlandi from Lagos won the Elite Model Look contest in 1998 and became one of Africa's most successful international supermodels. She later married Italian designer Luca Orlandi.",
+    "difficulty": "hard",
+    "pointValue": 200
+  }
+]

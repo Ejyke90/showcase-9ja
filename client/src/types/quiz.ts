@@ -1,4 +1,4 @@
-export type CategoryId = 'food' | 'music' | 'culture' | 'sports' | 'geography' | 'nollywood';
+export type CategoryId = 'food' | 'music' | 'culture' | 'sports' | 'geography' | 'nollywood' | 'history' | 'fashion' | 'linguistics';
 export type Difficulty = 'easy' | 'medium' | 'hard';
 export type QuizMode = 'solo' | 'multiplayer';
 
@@ -109,5 +109,32 @@ export const CATEGORIES: Category[] = [
     description: 'Films, actors & the industry',
     color: 'bg-red-600',
     bgGradient: 'from-red-600 to-rose-600',
+  },
+  {
+    id: 'history',
+    label: 'History',
+    emoji: '📜',
+    imageUrl: cultureImg,
+    description: 'Independence, empires & presidents',
+    color: 'bg-amber-700',
+    bgGradient: 'from-amber-700 to-yellow-600',
+  },
+  {
+    id: 'fashion',
+    label: 'Fashion',
+    emoji: '👗',
+    imageUrl: cultureImg,
+    description: 'Ankara, Agbada, Gele & designers',
+    color: 'bg-pink-600',
+    bgGradient: 'from-pink-600 to-fuchsia-600',
+  },
+  {
+    id: 'linguistics',
+    label: 'Languages',
+    emoji: '🗣️',
+    imageUrl: geographyImg,
+    description: 'Naija Pidgin, slang & 521 languages',
+    color: 'bg-cyan-600',
+    bgGradient: 'from-cyan-600 to-teal-500',
   },
 ];

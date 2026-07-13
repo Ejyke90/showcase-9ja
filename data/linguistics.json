@@ -1,0 +1,302 @@
+[
+  {
+    "id": "linguistics_001",
+    "categoryId": "linguistics",
+    "question": "What are Nigeria's three major indigenous languages?",
+    "options": [
+      { "id": "a", "text": "Igbo, Yoruba, Hausa" },
+      { "id": "b", "text": "Igbo, Efik, Tiv" },
+      { "id": "c", "text": "Yoruba, Urhobo, Ijaw" },
+      { "id": "d", "text": "Hausa, Fulfulde, Kanuri" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Igbo, Yoruba, and Hausa are Nigeria's three constitutionally recognised major languages and are used for official communication. Together they are spoken by the majority of Nigeria's population.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "linguistics_002",
+    "categoryId": "linguistics",
+    "question": "Approximately how many distinct languages are spoken in Nigeria?",
+    "options": [
+      { "id": "a", "text": "Around 50" },
+      { "id": "b", "text": "Around 200" },
+      { "id": "c", "text": "Around 521" },
+      { "id": "d", "text": "Around 900" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Nigeria is one of the most linguistically diverse countries in the world with approximately 521 languages. About 9 of these are now extinct. This diversity reflects the country's hundreds of ethnic groups.",
+    "difficulty": "medium",
+    "pointValue": 150
+  },
+  {
+    "id": "linguistics_003",
+    "categoryId": "linguistics",
+    "question": "What is Nigeria's official language of government and education?",
+    "options": [
+      { "id": "a", "text": "Hausa" },
+      { "id": "b", "text": "Yoruba" },
+      { "id": "c", "text": "Igbo" },
+      { "id": "d", "text": "English" }
+    ],
+    "correctOptionId": "d",
+    "explanation": "English, inherited from British colonial rule, is Nigeria's official language. It is used in government, courts, education, and media, serving as the lingua franca across Nigeria's diverse ethnic groups.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "linguistics_004",
+    "categoryId": "linguistics",
+    "question": "The Igbo and Yoruba languages both belong to which large African language family?",
+    "options": [
+      { "id": "a", "text": "Afro-Asiatic" },
+      { "id": "b", "text": "Niger-Congo" },
+      { "id": "c", "text": "Nilo-Saharan" },
+      { "id": "d", "text": "Khoisan" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Both Igbo and Yoruba belong to the Niger-Congo family — the world's largest language family by number of languages. Hausa belongs to the Afro-Asiatic family, while Kanuri belongs to Nilo-Saharan.",
+    "difficulty": "medium",
+    "pointValue": 150
+  },
+  {
+    "id": "linguistics_005",
+    "categoryId": "linguistics",
+    "question": "The Kanuri language (spoken in northeastern Nigeria) belongs to which language family?",
+    "options": [
+      { "id": "a", "text": "Niger-Congo" },
+      { "id": "b", "text": "Afro-Asiatic" },
+      { "id": "c", "text": "Nilo-Saharan" },
+      { "id": "d", "text": "Austronesian" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Kanuri is a Nilo-Saharan language spoken primarily in Borno State by the Kanuri people, descendants of the Kanem-Bornu Empire. It is one of the few Nigerian languages outside the Niger-Congo family.",
+    "difficulty": "hard",
+    "pointValue": 200
+  },
+  {
+    "id": "linguistics_006",
+    "categoryId": "linguistics",
+    "question": "What is 'Pidgin English' (Naija Pidgin) in Nigeria?",
+    "options": [
+      { "id": "a", "text": "Broken English spoken only by uneducated Nigerians" },
+      { "id": "b", "text": "A creole language blending English with indigenous vocabulary, spoken as a lingua franca across Nigeria" },
+      { "id": "c", "text": "The official language taught in primary schools" },
+      { "id": "d", "text": "An Igbo dialect heavily influenced by English" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Nigerian Pidgin (Naija) is a creole language that blends English with Yoruba, Igbo, Hausa, Portuguese and other influences. It is spoken by an estimated 75–100 million Nigerians and is now a BBC broadcasting language.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "linguistics_007",
+    "categoryId": "linguistics",
+    "question": "What does the Nigerian Pidgin phrase 'How now?' mean?",
+    "options": [
+      { "id": "a", "text": "What time is it?" },
+      { "id": "b", "text": "How are you? / What's up?" },
+      { "id": "c", "text": "Where are you going?" },
+      { "id": "d", "text": "Do you understand?" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'How now?' is a common Nigerian Pidgin greeting equivalent to 'How are you?' or 'What's happening?' It can be answered with 'I dey' (I'm here/I'm fine) or 'E don do' (It's all good).",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "linguistics_008",
+    "categoryId": "linguistics",
+    "question": "Hausa is part of the Chadic branch of which large language family?",
+    "options": [
+      { "id": "a", "text": "Niger-Congo" },
+      { "id": "b", "text": "Nilo-Saharan" },
+      { "id": "c", "text": "Afro-Asiatic" },
+      { "id": "d", "text": "Kordofanian" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Hausa belongs to the Chadic branch of the Afro-Asiatic language family — the same family that includes Arabic, Amharic, and Hebrew. Hausa is the most widely spoken Chadic language and a major trade language across West Africa.",
+    "difficulty": "hard",
+    "pointValue": 200
+  },
+  {
+    "id": "linguistics_009",
+    "categoryId": "linguistics",
+    "question": "What does the popular Nigerian Yoruba term 'E choke' mean in Nigerian slang?",
+    "options": [
+      { "id": "a", "text": "It is terrible / disappointing" },
+      { "id": "b", "text": "It is overwhelming / amazing" },
+      { "id": "c", "text": "It is very spicy" },
+      { "id": "d", "text": "It is expensive" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'E choke' (popularised by comedian/musician David 'Dave' who made it famous along with Wizkid at the 2021 Grammys) means something is so impressive it takes your breath away — 'It chokes (you with awe)'.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "linguistics_010",
+    "categoryId": "linguistics",
+    "question": "The Yoruba language uses tones to distinguish word meanings. How many tones does standard Yoruba have?",
+    "options": [
+      { "id": "a", "text": "Two (high and low)" },
+      { "id": "b", "text": "Three (high, mid, and low)" },
+      { "id": "c", "text": "Four (high, mid, low, and rising)" },
+      { "id": "d", "text": "Five" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Standard Yoruba is a tonal language with three lexical tones: high (marked with an acute accent ´), mid (unmarked), and low (marked with a grave accent `). The same vowels with different tones can mean completely different things.",
+    "difficulty": "hard",
+    "pointValue": 200
+  },
+  {
+    "id": "linguistics_011",
+    "categoryId": "linguistics",
+    "question": "What does 'Oya' mean in Yoruba / Nigerian slang?",
+    "options": [
+      { "id": "a", "text": "Goodbye" },
+      { "id": "b", "text": "Come on / Let's go / Hurry up" },
+      { "id": "c", "text": "Thank you" },
+      { "id": "d", "text": "I don't know" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Oya' is one of the most versatile words in Nigerian slang. Derived from Yoruba, it is used as a call to action — 'Come on!', 'Let's go!', 'Hurry!', or even 'All right then!' It is widely understood across all Nigerian ethnicities.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "linguistics_012",
+    "categoryId": "linguistics",
+    "question": "The Efik language is primarily spoken in which Nigerian state?",
+    "options": [
+      { "id": "a", "text": "Akwa Ibom and Cross River" },
+      { "id": "b", "text": "Rivers and Bayelsa" },
+      { "id": "c", "text": "Delta and Edo" },
+      { "id": "d", "text": "Imo and Enugu" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Efik is the major language of the Efik people in Cross River State and parts of Akwa Ibom. It was one of the first Nigerian languages to be reduced to writing by missionaries and has a rich literary tradition.",
+    "difficulty": "medium",
+    "pointValue": 150
+  },
+  {
+    "id": "linguistics_013",
+    "categoryId": "linguistics",
+    "question": "What does the Nigerian slang term 'Japa' mean?",
+    "options": [
+      { "id": "a", "text": "To eat greedily" },
+      { "id": "b", "text": "To flee / emigrate abroad for better opportunities" },
+      { "id": "c", "text": "To dance vigorously" },
+      { "id": "d", "text": "To steal" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "From the Yoruba word meaning 'to flee quickly', 'Japa' in modern Nigerian slang specifically refers to emigrating abroad — usually to the UK, US, or Canada — in search of better economic opportunities. It has defined a whole generation of young Nigerians.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "linguistics_014",
+    "categoryId": "linguistics",
+    "question": "Igbo is a tonal language. Approximately how many dialects does it have?",
+    "options": [
+      { "id": "a", "text": "Around 10" },
+      { "id": "b", "text": "Around 30" },
+      { "id": "c", "text": "Over 100" },
+      { "id": "d", "text": "Just 2 (standard and colloquial)" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Igbo has over 100 dialects, though 'Standard Igbo' — based on the Central Igbo dialects — is used in formal writing and broadcasting. The dialect diversity reflects the decentralised nature of traditional Igbo society.",
+    "difficulty": "hard",
+    "pointValue": 200
+  },
+  {
+    "id": "linguistics_015",
+    "categoryId": "linguistics",
+    "question": "What does 'abeg' mean in Nigerian Pidgin?",
+    "options": [
+      { "id": "a", "text": "Absolutely not" },
+      { "id": "b", "text": "Please / I beg you" },
+      { "id": "c", "text": "Yes, of course" },
+      { "id": "d", "text": "Leave me alone" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Abeg' (from 'I beg') is Nigerian Pidgin for 'please' or a pleading exclamation. It can express genuine request ('Abeg help me'), exasperation ('Abeg stop!'), or disbelief ('Abeg, that's not true!').",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "linguistics_016",
+    "categoryId": "linguistics",
+    "question": "Which script was historically used to write Hausa before the adoption of the Latin alphabet?",
+    "options": [
+      { "id": "a", "text": "Tifinagh" },
+      { "id": "b", "text": "Ajami (Arabic script adapted for Hausa)" },
+      { "id": "c", "text": "Nsibidi symbols" },
+      { "id": "d", "text": "Egyptian hieroglyphs" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Hausa was written in Ajami — an adapted Arabic script — for centuries before missionaries introduced the Latin-based Boko script in the 19th century. Ajami Hausa texts (mostly religious poetry) still exist today.",
+    "difficulty": "hard",
+    "pointValue": 200
+  },
+  {
+    "id": "linguistics_017",
+    "categoryId": "linguistics",
+    "question": "The Nsibidi script is an indigenous writing system associated with which Nigerian people?",
+    "options": [
+      { "id": "a", "text": "Hausa-Fulani of the North" },
+      { "id": "b", "text": "Igbo and Efik/Cross River peoples" },
+      { "id": "c", "text": "Yoruba of the Southwest" },
+      { "id": "d", "text": "Tiv of the Middle Belt" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Nsibidi is a system of ideographic symbols used by the Ekpe secret society among the Igbo, Efik, Ibibio, and related Cross River peoples. It predates European contact and is one of Africa's oldest indigenous writing systems.",
+    "difficulty": "hard",
+    "pointValue": 200
+  },
+  {
+    "id": "linguistics_018",
+    "categoryId": "linguistics",
+    "question": "What does the slang word 'Shey' mean in Nigerian English / Pidgin?",
+    "options": [
+      { "id": "a", "text": "A form of goodbye" },
+      { "id": "b", "text": "A question tag / 'isn't it?' / 'right?'" },
+      { "id": "c", "text": "An insult" },
+      { "id": "d", "text": "A term of endearment" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Shey' (from Yoruba) functions as a question tag or confirmation-seeker, equivalent to 'isn't it?', 'right?', or 'you know?'. E.g., 'You saw him, shey?' It is universally used across Nigerian ethnicities.",
+    "difficulty": "easy",
+    "pointValue": 100
+  },
+  {
+    "id": "linguistics_019",
+    "categoryId": "linguistics",
+    "question": "Which Nigerian Nobel Prize winner helped pioneer the standardisation of the Yoruba language?",
+    "options": [
+      { "id": "a", "text": "Chinua Achebe" },
+      { "id": "b", "text": "Wole Soyinka" },
+      { "id": "c", "text": "Ben Okri" },
+      { "id": "d", "text": "Chimamanda Ngozi Adichie" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Wole Soyinka, the 1986 Nobel Laureate in Literature, wrote extensively in Standard Yoruba and English. His plays, poetry, and essays have profoundly shaped modern Yoruba literary language. Chinua Achebe is Igbo, not Yoruba.",
+    "difficulty": "hard",
+    "pointValue": 200
+  },
+  {
+    "id": "linguistics_020",
+    "categoryId": "linguistics",
+    "question": "The word 'Wahala' in Nigerian Pidgin and Hausa primarily means what?",
+    "options": [
+      { "id": "a", "text": "Celebration / party" },
+      { "id": "b", "text": "Trouble / problem / stress" },
+      { "id": "c", "text": "Food / meal" },
+      { "id": "d", "text": "Money" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Wahala' (from Arabic via Hausa) means trouble, problem, or stress and is used across all Nigerian languages and Pidgin. 'No wahala' means 'no problem / no worries'. It even featured in Beyoncé's Lemonade album.",
+    "difficulty": "easy",
+    "pointValue": 100
+  }
+]
